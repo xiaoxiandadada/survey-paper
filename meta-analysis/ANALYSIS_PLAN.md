@@ -1,4 +1,4 @@
-# Analysis Plan: Lung Cancer AI Screening — Systematic Review & Meta-Analysis
+# Analysis Plan: AI-Assisted Lung Cancer and Multi-Cancer Early Detection — Systematic Review & Meta-Analysis
 
 **Version:** 1.0  
 **Date:** 2026-04-15  

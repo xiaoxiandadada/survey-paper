@@ -2,8 +2,8 @@
 
 Reproducible analysis code and results for the systematic review & meta-analysis:
 
-> **"Diagnostic Accuracy of AI Models and cfDNA Methylation for Lung Cancer Screening:
-> A Systematic Review and Meta-Analysis"**
+> **"Diagnostic Accuracy of AI Models and cfDNA Methylation for Lung Cancer
+> and Multi-Cancer Early Detection: A Systematic Review and Meta-Analysis"**
 >
 > Three research questions (RQ1–RQ3) reported in a single paper following PRISMA-DTA 2023.
 
