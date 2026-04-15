@@ -1,0 +1,5143 @@
+[
+  {
+    "pmid": "36400018",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "multi_cancer",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": "clinical stage and tumor type, ctaf is a more significant pr",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39747216",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 2032,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31911847",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "miRNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35073982",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 157,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.9257,
+    "sensitivity": 0.875,
+    "specificity": 0.8387,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40765058",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 102,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": "tissue next-generation sequencing in advanced non-small cell",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "40020968",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 180,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "28891455",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "imaging",
+      "miRNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37567793",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1380,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "imaging"
+    ],
+    "model_type": "ensemble",
+    "comparator": "the cibm and pulmoseek models with an increase of 0·05 in au",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34131323",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 308,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.96,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34258160",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.86,
+    "sensitivity": 0.8,
+    "specificity": 0.857,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39431470",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 739,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.607,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38812772",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 53,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39146624",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 95,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "CT",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.815,
+    "sensitivity": 0.744,
+    "specificity": 0.737,
+    "validation_type": "none",
+    "key_limitations": "single-center"
+  },
+  {
+    "pmid": "39705824",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 210,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "ctDNA"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": 0.87,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37318381",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41323119",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1356,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT",
+      "imaging",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "specificities of 0",
+    "auc": 0.95,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41763445",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "other",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA",
+      "miRNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40737714",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 103,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38743638",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40255184",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT",
+      "imaging",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34251068",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "other",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.91,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41737326",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1706,
+    "cancer_type": "multi_cancer",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": "the methylation-based classifier, the multimodal classifier",
+    "auc": null,
+    "sensitivity": 0.751,
+    "specificity": 0.988,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39165498",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 465,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.963,
+    "sensitivity": 0.992,
+    "specificity": 0.563,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38856716",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.808,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31546933",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": "adenocarcinoma in study group #1",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41077273",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 141,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT",
+      "blood_protein",
+      "imaging"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": 0.7743,
+    "sensitivity": 0.78,
+    "specificity": 0.768,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39233043",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 926,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "ensemble",
+    "comparator": null,
+    "auc": 0.961,
+    "sensitivity": 0.793,
+    "specificity": 0.96,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40847031",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 179,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40897746",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39748775",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 304,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.785,
+    "specificity": 0.977,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35793574",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "controls (p =",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "internal_CV",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40468033",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 27,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38410586",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 49,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41331845",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 47,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": 0.75,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33901468",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": null,
+    "comparator": "line-1 hypomethylation",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29438522",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 425,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38926407",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 142,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40281631",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 103,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.96,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35126793",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 29,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34830765",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "multi_cancer",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37101220",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 317,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": 0.94,
+    "sensitivity": 0.81,
+    "specificity": 0.98,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41194150",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 100,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": null,
+    "comparator": "high 78",
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37598236",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 191,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.956,
+    "sensitivity": 0.781,
+    "specificity": 0.992,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35998020",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 123,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.971,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34800919",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 61,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "CT",
+      "imaging",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35053460",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 61,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.737,
+    "specificity": 0.619,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "30261643",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "multi_cancer",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36379302",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 6243,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35600397",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35804466",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.84,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37330511",
+    "study_design": "case_control",
+    "screening_or_clinical": "both",
+    "cohort_size": 209,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "blood_protein",
+      "ctDNA"
+    ],
+    "model_type": "ensemble",
+    "comparator": null,
+    "auc": 0.85,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38315228",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 149,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "the healthy group",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34422992",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 48,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": "balf methylation and mutation (p<0",
+    "auc": null,
+    "sensitivity": 0.71,
+    "specificity": 0.778,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "30010036",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 67,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": "healthy controls",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37038139",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37027928",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "SVM",
+    "comparator": null,
+    "auc": 0.912,
+    "sensitivity": 0.737,
+    "specificity": 0.973,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35583893",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.7619,
+    "specificity": 1.0,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31775567",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.956,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39380154",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 5389,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "control and among different cancer types",
+    "auc": 0.91,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31037156",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 118,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.927,
+    "specificity": 0.928,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31791387",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41591979",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 2084,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "30516882",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38961476",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40946553",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41603032",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32420067",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 119,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": "those without metastases, 878 and 52 genes were differential",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41672932",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 325,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": "ldct or ledx alone",
+    "auc": null,
+    "sensitivity": 0.82,
+    "specificity": 0.817,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41869572",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 149,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": "benign/healthy individuals",
+    "auc": 0.95,
+    "sensitivity": 0.977,
+    "specificity": 0.966,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38195644",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 6865,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.93,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35108060",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 1036,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "SVM",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38042167",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 6009,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36634294",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40027282",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34289983",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40380218",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 276,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features",
+      "miRNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.78,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39300939",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": "other radiological screening methods, endobronchial optical",
+    "auc": null,
+    "sensitivity": 0.914,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36909593",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1138,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36832135",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 3923,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.897,
+    "sensitivity": 0.836,
+    "specificity": 0.828,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33718054",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32238573",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38848168",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40133038",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 168,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": "ensemble",
+    "comparator": null,
+    "auc": 0.97,
+    "sensitivity": null,
+    "specificity": 0.92,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34164281",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40956165",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 4146,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the pan-canadian early detection of lung cancer (pancan) mod",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "40841456",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.85,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32754420",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": "human experts",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34264825",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 2018,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40090067",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "other models, with chatgpt-3",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41716936",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "screening",
+    "cohort_size": 712,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": "and npvs by clinicodemographic characteristics with 95% cis",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36086366",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41429086",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 188,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.81,
+    "sensitivity": null,
+    "specificity": 0.81,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35813317",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 44,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.938,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31947269",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the neural networks with only image input and with other tra",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41319254",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 399,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.918,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32504345",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 2018,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.913,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41975727",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 100,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "30607311",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": "an auc 0",
+    "auc": 0.773,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37804011",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 58,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40883523",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "ai-b80f/1 mm) did not significantly affect ai's nodule detec",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32917666",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37958411",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34478913",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29454784",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "Cox",
+    "comparator": "lcse smokers (0",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41726431",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31256186",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41308576",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 4104,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41830914",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging",
+      "ctDNA"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33261057",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "humans, ai has the potential to aid clinicians in the interp",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35768005",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "0,114, 95%-konfidenzintervall (ki): 0,096–0,931 vs",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39484267",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 16435,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": 0.76,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31307017",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33408594",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "a human being and can be used to analyze and interpret compl",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35468494",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29594181",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "positive controls",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40847012",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 24697,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "mainstream dl algorithms and traditional machine learning (m",
+    "auc": 0.933,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34164287",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38254644",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1086,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39818952",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 5778,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": "using structured data alone",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33502624",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "a cnn and had a substantially faster convergence rate",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33092589",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 602,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the lung-rads, the ann provided better sensitivity for the d",
+    "auc": null,
+    "sensitivity": 0.125,
+    "specificity": 0.96,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31732678",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 27,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 0.96,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39347601",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35176595",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1000,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the experienced physicians",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40237429",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 366,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": null,
+    "comparator": "interpretation without ai (recall rate, 22",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "40644803",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "blood_protein",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35044988",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 710,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40141842",
+    "study_design": "RCT",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": "70-80% with traditional methods, and can reduce false positi",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36077686",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the auc = 0",
+    "auc": 0.561,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41413294",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35530343",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 933,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the 7-aabs panel test alone, the neural network model improv",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39231830",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": "the qct results as the diagnostic standard, the bmd assessed",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41928658",
+    "study_design": "RCT",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41594162",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 415,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40082126",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 551,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.964,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38569236",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.574,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33691657",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 110,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": "the methylation biomarkers and the mayo clinic model using t",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29713615",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 590,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.992,
+    "specificity": 0.991,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39053365",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 4076,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": "controls (1:2) of patients aged ≥ 35 years",
+    "auc": null,
+    "sensitivity": 0.69,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35406501",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "ct only, showing lower costs and higher effectiveness",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "36434060",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the existing unet architecture, and the proposed methodology",
+    "auc": null,
+    "sensitivity": 0.9257,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34461501",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "28932985",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 224,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40640822",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 2171,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.843,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41083099",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "contemporary vlm systems, including m3d ct2report",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33240975",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.9593,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41097693",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "imaging",
+      "ctDNA"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37689528",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 467,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41419702",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1984,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.705,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": "single‑cohort evaluation, lack of lung‑rads labels in public nlst, and a cxr → ct pretraining shift; future work will pursue external validation and c"
+  },
+  {
+    "pmid": "41227214",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features",
+      "imaging",
+      "miRNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38132274",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 225,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "SVM",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32670710",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35699582",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "screening",
+    "cohort_size": 7835,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": "single-center; retrospective study"
+  },
+  {
+    "pmid": "40831733",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 176,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "ensemble",
+    "comparator": "control transcriptomic signals were enriched for hypoxia-res",
+    "auc": 0.64,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41775478",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35182291",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 240,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38988991",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 60,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "the latter approach obtained a precision of 0",
+    "auc": null,
+    "sensitivity": 0.93,
+    "specificity": 0.923,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39697091",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "non-screening, and screening with lungflag versus screening",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36672655",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35311112",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 560,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.895,
+    "sensitivity": 0.8953,
+    "specificity": 0.8131,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36681685",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "other methods evaluated in our study following the delong te",
+    "auc": 0.94,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37903855",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 10573,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41778236",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 156,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39437009",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the worst-case scenario combining a bone reconstruction filt",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39481281",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 1010,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36681813",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 150,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.94,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41234819",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36719495",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 197,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.93,
+    "specificity": 0.89,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34969636",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 273,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40121609",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 403,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "the lung-rads 1",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39409894",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 146,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "veins",
+    "auc": 0.78,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "internal_CV",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34017001",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 2085,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.768,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34502160",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 851,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39088983",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 193,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "cfDNA_fragmentomics"
+    ],
+    "model_type": "ensemble",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.634,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41430273",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "blood_protein",
+      "clinical_features",
+      "proteomics"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40564882",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36929398",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 10,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "biennial screening based on the recalibrated lcp-cnn model",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37019699",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "screening",
+    "cohort_size": 123,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40600041",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.63,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34528761",
+    "study_design": "RCT",
+    "screening_or_clinical": "both",
+    "cohort_size": 4664,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "no screening, patients with ≥1 ldct were more than twice as",
+    "auc": 0.87,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35131147",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "screening",
+    "cohort_size": 1984,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "37990399",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1092,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33658025",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 904,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.708,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34573951",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "part-solid (second-level classification)",
+    "auc": 0.89,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36438275",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37248730",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 135503,
+    "cancer_type": "other",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32788705",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "30443438",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.96,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33816155",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "the sor, accuracy (auc) for detection of psn on the ai-vs im",
+    "auc": 0.8,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38589197",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 32,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "conventional radiomics models and models excluding clinical",
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "32072260",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38658287",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 260,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "multiple follow-ups (220 and 260 subjects respectively) and",
+    "auc": 0.732,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "31185463",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36174098",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "screening",
+    "cohort_size": 210,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": "single institution"
+  },
+  {
+    "pmid": "32831492",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38752718",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 1951,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "lung ct screening reporting and data system (nri, 0",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "36291800",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36701900",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 323344,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": "three competitive prediction models, i",
+    "auc": 0.855,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37642722",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 60,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.913,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34871936",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 360,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "double reading in lung-rads 3 (94",
+    "auc": null,
+    "sensitivity": 0.901,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34870218",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 100,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "an observer study of 11 radiologists that assessed the same",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "37969955",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 257,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": 0.894,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39958220",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 1064,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38214839",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 674,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38720391",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "asir-v, especially at radiation doses below 1 mgy and when r",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33482120",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 3197,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.91,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41315843",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 10000,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38927934",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 776,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "other_ML",
+    "comparator": "the auc of 0",
+    "auc": 0.827,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32185618",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 68,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.69,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36656144",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 4098,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": null,
+    "comparator": "model survey ( p <0",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41454306",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "LDCT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "conventional approaches, with improved lesion targeting and",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38509635",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.857,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32864596",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 25097,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "lung-rads and volume doubling time using time-dependent roc",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40491372",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41734977",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 615,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "LDCT",
+      "clinical_features"
+    ],
+    "model_type": "deep_learning",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41833807",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 22469,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "sybil (auc=0",
+    "auc": 0.64,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36849097",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1693,
+    "cancer_type": "multi_cancer",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.691,
+    "specificity": 0.989,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37819044",
+    "study_design": "other",
+    "screening_or_clinical": "screening",
+    "cohort_size": 1550,
+    "cancer_type": "multi_cancer",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.724,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39799530",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "multi_cancer",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40317486",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 485,
+    "cancer_type": "multi_cancer",
+    "stage_info": "early",
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39333750",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 4875,
+    "cancer_type": "lung",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "miRNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37352875",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 6238,
+    "cancer_type": "multi_cancer",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation"
+    ],
+    "model_type": null,
+    "comparator": "the diagnosis obtained by standard care to establish the pri",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35626398",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "multi_cancer",
+    "stage_info": null,
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39009999",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 733,
+    "cancer_type": "multi_cancer",
+    "stage_info": "early",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": 0.865,
+    "sensitivity": null,
+    "specificity": 0.98,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41165038",
+    "study_design": "case_control",
+    "screening_or_clinical": "both",
+    "cohort_size": 6342,
+    "cancer_type": "multi_cancer",
+    "stage_info": "mixed",
+    "input_modalities": [
+      "cfDNA_methylation",
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.832,
+    "specificity": 0.991,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40682054",
+    "study_design": "case_control",
+    "screening_or_clinical": "screening",
+    "cohort_size": 5197,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "CT"
+    ],
+    "model_type": "random_forest",
+    "comparator": "pkuph and block models",
+    "auc": 0.866,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "32739872",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1261,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "blood_protein"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "37458983",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 795,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "CT",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35729538",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "blood_protein"
+    ],
+    "model_type": null,
+    "comparator": "the same tms that were considered individually, this diagnos",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37969964",
+    "study_design": "case_control",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "blood_protein"
+    ],
+    "model_type": null,
+    "comparator": "a low prs [odds ratio (or)=2",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39184040",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 502,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": "alternative ml algorithms, achieving an accuracy of 81",
+    "auc": 0.888,
+    "sensitivity": 0.811,
+    "specificity": 0.825,
+    "validation_type": "none",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "38996549",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 126,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": "acc, acs exhibited superior predictive power for pfs and os",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40478347",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "both",
+    "cohort_size": 16360,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": 0.77,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": "retrospective study"
+  },
+  {
+    "pmid": "40943394",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40441343",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39728732",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 70,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.887,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "38159298",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 3635,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.74,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40642085",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 7024,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40264240",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 80,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "blood_protein"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": 0.651,
+    "sensitivity": 0.666,
+    "specificity": 0.621,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37038295",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 167,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40227817",
+    "study_design": "case_control",
+    "screening_or_clinical": "both",
+    "cohort_size": 379,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "blood_protein",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.872,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40507370",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1348,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "clinical_features"
+    ],
+    "model_type": "SVM",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41169155",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.912,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35565275",
+    "study_design": "RCT",
+    "screening_or_clinical": "screening",
+    "cohort_size": 9940,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "LDCT",
+      "CT",
+      "blood_protein",
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37577306",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 115,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "CT",
+      "imaging"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41327467",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 111752,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": 0.57,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41406506",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 202,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "cfDNA_fragmentomics",
+      "ctDNA"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": 0.78,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33653596",
+    "study_design": "case_control",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 132,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": 0.674,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41411615",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 81,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "ctDNA"
+    ],
+    "model_type": null,
+    "comparator": "limited-stage cases",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "33137463",
+    "study_design": "case_control",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "blood_protein",
+      "imaging"
+    ],
+    "model_type": "other_ML",
+    "comparator": "a smoking-based lung cancer risk model, can provide discrimi",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41672291",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41535791",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 1046,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34277151",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40143527",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "random_forest",
+    "comparator": "the gradient boosting and adaboost classifiers in the intern",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39633837",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 109,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40804615",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 348,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "34995129",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "ensemble",
+    "comparator": "current us preventive services task force (uspstf) screening",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "39263016",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 278,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "CT",
+      "imaging"
+    ],
+    "model_type": null,
+    "comparator": "mayo alone, with commercial clinrad achieving cnri of 0",
+    "auc": 0.8,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37540816",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40565055",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "37260165",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 624,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "proteomics"
+    ],
+    "model_type": null,
+    "comparator": "existing prediction tools",
+    "auc": null,
+    "sensitivity": 0.14,
+    "specificity": 0.86,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29196095",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 79,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "imaging"
+    ],
+    "model_type": "Cox",
+    "comparator": "those of the metastatic sites",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40269593",
+    "study_design": "retrospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 109,
+    "cancer_type": "lung",
+    "stage_info": "late",
+    "input_modalities": [
+      "CT",
+      "imaging"
+    ],
+    "model_type": "Cox",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41225387",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 384,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "CT",
+      "blood_protein",
+      "imaging"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  },
+  {
+    "pmid": "41233929",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "clinical_features"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "29496499",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 685,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "proteomics"
+    ],
+    "model_type": "other_ML",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": 0.97,
+    "specificity": 0.44,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40302376",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": null,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "other"
+    ],
+    "model_type": null,
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40562295",
+    "study_design": "prospective_cohort",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 142,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "blood_protein"
+    ],
+    "model_type": "logistic_regression",
+    "comparator": "the survivors group (n = 51)",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "internal_CV",
+    "key_limitations": null
+  },
+  {
+    "pmid": "35870539",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 338,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "blood_protein",
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "random_forest",
+    "comparator": "the current standard of risk estimation (mayo)",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "none",
+    "key_limitations": null
+  },
+  {
+    "pmid": "40180245",
+    "study_design": "other",
+    "screening_or_clinical": "both",
+    "cohort_size": 843,
+    "cancer_type": "lung",
+    "stage_info": null,
+    "input_modalities": [
+      "clinical_features"
+    ],
+    "model_type": "random_forest",
+    "comparator": null,
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "internal_CV",
+    "key_limitations": null
+  },
+  {
+    "pmid": "36194194",
+    "study_design": "other",
+    "screening_or_clinical": "clinical_diagnosis",
+    "cohort_size": 1705,
+    "cancer_type": "lung",
+    "stage_info": "early",
+    "input_modalities": [
+      "clinical_features",
+      "imaging"
+    ],
+    "model_type": "deep_learning",
+    "comparator": "a tnm model and a resnet-graph model",
+    "auc": null,
+    "sensitivity": null,
+    "specificity": null,
+    "validation_type": "external_validation",
+    "key_limitations": null
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "description": "Literature support library for: LDCT/multimodal/AI vs cfDNA methylation MCED in lung cancer screening",
+  "research_question": "Comparison of LDCT, routine physical exam multimodal/AI models, and cfDNA methylation MCED for lung cancer screening performance (AUC, sensitivity, specificity)",
+  "search_parameters": {
+    "date_range": "2018-2026",
+    "language": "English",
+    "database": "PubMed",
+    "n_retrieved": 500
+  },
+  "categories": {
+    "cat1_cfdna_methylation_mced": "cfDNA methylation-based multi-cancer early detection (MCED) studies — standalone liquid biopsy methylation panels",
+    "cat2_single_modality_screening": "Single imaging/biomarker modality screening — LDCT, FIT, PSA, or other single-modality approaches",
+    "cat3_physical_exam_traditional_model": "Physical exam / routine checkup data combined with traditional statistical models (logistic regression, Cox, etc.)",
+    "cat4_physical_exam_ai_model": "Physical exam / routine checkup data combined with AI/deep learning/multimodal models",
+    "cat5_methylation_multimodal": "Methylation integrated with multimodal data (imaging + liquid biopsy, cfDNA + clinical features, etc.) — priority category"
+  },
+  "filer_fields": {
+    "title": "string — paper title",
+    "abstract": "string — full abstract text",
+    "doi": "string or null",
+    "pmid": "string — PubMed ID",
+    "journal": "string",
+    "pub_year": "integer",
+    "authors": "list of strings",
+    "cancer_type": "string — e.g. lung, multi-cancer, colorectal",
+    "modality": "string — primary modality detected from title/abstract",
+    "task_type": "string — screening / diagnosis / risk_assessment / multimodal_fusion",
+    "include_decision": "boolean — true if passes inclusion criteria",
+    "exclusion_reason": "string or null — reason for exclusion if include_decision=false",
+    "probable_relevance_score": "float 0.0-1.0 — estimated relevance to research question"
+  },
+  "extraction_fields": {
+    "study_design": "RCT / prospective_cohort / retrospective_cohort / case_control / cross_sectional / other",
+    "screening_or_clinical": "screening / clinical_diagnosis / both",
+    "cohort_size": "integer or null",
+    "cancer_type": "lung / multi_cancer / other",
+    "stage_info": "early / late / mixed / null",
+    "input_modalities": "list — cfDNA_methylation / LDCT / CT / blood_protein / clinical_features / imaging / other",
+    "model_type": "deep_learning / logistic_regression / Cox / SVM / random_forest / ensemble / other / null",
+    "comparator": "string description of comparison arm or null",
+    "auc": "float 0.0-1.0 or null",
+    "sensitivity": "float 0.0-1.0 or null",
+    "specificity": "float 0.0-1.0 or null",
+    "validation_type": "internal_CV / external_validation / prospective / none",
+    "key_limitations": "string or null"
+  },
+  "scoring_fields": {
+    "relevance": "0-25 — direct relevance to lung cancer screening / cfDNA methylation / MCED / LDCT / AI multimodal",
+    "design_quality": "0-25 — study design quality (prospective > retrospective > case-control; sample size; validation approach)",
+    "metric_comparability": "0-20 — completeness of AUC/sensitivity/specificity with confidence intervals",
+    "generalizability": "0-15 — multi-center / external validation / population representativeness",
+    "impact": "0-15 — journal tier / citation count / landmark study status",
+    "total_score": "0-100 — sum of all dimensions",
+    "core_library": "boolean — true if total_score >= 70",
+    "category": "one of the 5 category keys above"
+  }
+}
