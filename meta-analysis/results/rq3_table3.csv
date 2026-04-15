@@ -1,7 +1,0 @@
-PMID,Year,Title (abbreviated),DL Architecture,Input Features,N (cohort),AUC,Validation,Quality Score
-41323119,2025,Risk-stratified classification of pulmonary nodule mali…,CNN + clinical fusion,Methylation + LDCT + imaging,"1,356",0.950,External,16
-35600397,2022,Precision Oncology: Artificial Intelligence and DNA Met…,Deep learning (unspecified),cfDNA methylation + ctDNA,—,—,None,4
-39380154,2024,Transformer-based representation learning and multiple-…,Transformer + MIL,Bisulfite cfDNA (genome-wide),"5,389",0.910,None,12
-38926407,2024,Deep learning model integrating cfDNA methylation and f…,CNN (fragment size),Methylation + fragment size,142,—,None,6
-37598236,2023,Advances in methylation analysis of liquid biopsy in ea…,Deep learning (unspecified),cfDNA methylation panel,191,0.956,None,4
-38961476,2024,Tissue of origin detection for cancer tumor using low-d…,Graph CNN (GCN),Methylation atlas (low-depth),—,—,None,4

@@ -1,0 +1,865 @@
+{
+  "generated": "2026-04-15",
+  "total_papers": 455,
+  "cancers": [
+    "lung",
+    "breast",
+    "colorectal",
+    "liver",
+    "prostate",
+    "cervical",
+    "ovarian",
+    "endometrial",
+    "gallbladder",
+    "lymphoma",
+    "bladder",
+    "kidney",
+    "pancreas",
+    "gastric",
+    "esophageal",
+    "nasopharyngeal"
+  ],
+  "categories": [
+    "LDCT_traditional",
+    "LDCT_LLM",
+    "cfDNA_traditional",
+    "cfDNA_LDCT_traditional",
+    "cfDNA_LDCT_LLM"
+  ],
+  "matrix": {
+    "lung": {
+      "LDCT_traditional": {
+        "count": 107,
+        "auc_mean": 0.846,
+        "auc_min": 0.52,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "low_if": 46,
+          "core": 15,
+          "extended": 21,
+          "unknown": 25
+        },
+        "gap": false
+      },
+      "LDCT_LLM": {
+        "count": 8,
+        "auc_mean": 0.839,
+        "auc_min": 0.705,
+        "auc_max": 0.91,
+        "tier_breakdown": {
+          "unknown": 6,
+          "core": 1,
+          "low_if": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 52,
+        "auc_mean": 0.832,
+        "auc_min": 0.57,
+        "auc_max": 0.971,
+        "tier_breakdown": {
+          "core": 10,
+          "extended": 22,
+          "low_if": 15,
+          "unknown": 5
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 27,
+        "auc_mean": 0.897,
+        "auc_min": 0.774,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "core": 8,
+          "extended": 10,
+          "low_if": 6,
+          "unknown": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "breast": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 3,
+        "auc_mean": 0.767,
+        "auc_min": 0.64,
+        "auc_max": 0.841,
+        "tier_breakdown": {
+          "unknown": 2,
+          "core": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 25,
+        "auc_mean": 0.923,
+        "auc_min": 0.78,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "core": 4,
+          "unknown": 10,
+          "extended": 8,
+          "low_if": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "colorectal": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 27,
+        "auc_mean": 0.893,
+        "auc_min": 0.581,
+        "auc_max": 0.993,
+        "tier_breakdown": {
+          "extended": 10,
+          "core": 7,
+          "unknown": 5,
+          "low_if": 5
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "liver": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 3,
+        "auc_mean": 0.881,
+        "auc_min": 0.866,
+        "auc_max": 0.89,
+        "tier_breakdown": {
+          "core": 1,
+          "unknown": 1,
+          "extended": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 25,
+        "auc_mean": 0.898,
+        "auc_min": 0.8,
+        "auc_max": 0.98,
+        "tier_breakdown": {
+          "unknown": 8,
+          "core": 12,
+          "extended": 2,
+          "low_if": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": 0.862,
+        "auc_min": 0.862,
+        "auc_max": 0.862,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "prostate": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 18,
+        "auc_mean": 0.896,
+        "auc_min": 0.59,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "unknown": 5,
+          "core": 1,
+          "extended": 9,
+          "low_if": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "cervical": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 1,
+        "auc_mean": 0.926,
+        "auc_min": 0.926,
+        "auc_max": 0.926,
+        "tier_breakdown": {
+          "core": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 15,
+        "auc_mean": 0.884,
+        "auc_min": 0.75,
+        "auc_max": 0.997,
+        "tier_breakdown": {
+          "extended": 9,
+          "unknown": 2,
+          "core": 3,
+          "low_if": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "ovarian": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 16,
+        "auc_mean": 0.932,
+        "auc_min": 0.724,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "low_if": 3,
+          "core": 3,
+          "unknown": 5,
+          "extended": 5
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "endometrial": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 8,
+        "auc_mean": 0.89,
+        "auc_min": 0.703,
+        "auc_max": 0.991,
+        "tier_breakdown": {
+          "unknown": 4,
+          "core": 1,
+          "low_if": 1,
+          "extended": 2
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "gallbladder": {
+      "LDCT_traditional": {
+        "count": 5,
+        "auc_mean": 0.9,
+        "auc_min": 0.81,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "low_if": 4,
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "LDCT_LLM": {
+        "count": 1,
+        "auc_mean": 0.83,
+        "auc_min": 0.83,
+        "auc_max": 0.83,
+        "tier_breakdown": {
+          "low_if": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 12,
+        "auc_mean": 0.852,
+        "auc_min": 0.647,
+        "auc_max": 0.967,
+        "tier_breakdown": {
+          "unknown": 8,
+          "core": 1,
+          "extended": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 2,
+        "auc_mean": 0.866,
+        "auc_min": 0.866,
+        "auc_max": 0.866,
+        "tier_breakdown": {
+          "unknown": 1,
+          "core": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "lymphoma": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 6,
+        "auc_mean": 0.89,
+        "auc_min": 0.74,
+        "auc_max": 0.99,
+        "tier_breakdown": {
+          "core": 3,
+          "unknown": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 3,
+        "auc_mean": 1.0,
+        "auc_min": 1.0,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "unknown": 2,
+          "extended": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "bladder": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 10,
+        "auc_mean": 0.911,
+        "auc_min": 0.871,
+        "auc_max": 0.96,
+        "tier_breakdown": {
+          "unknown": 5,
+          "extended": 3,
+          "core": 2
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "kidney": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 11,
+        "auc_mean": 0.931,
+        "auc_min": 0.78,
+        "auc_max": 0.999,
+        "tier_breakdown": {
+          "extended": 4,
+          "low_if": 2,
+          "core": 1,
+          "unknown": 4
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": 0.66,
+        "auc_min": 0.66,
+        "auc_max": 0.66,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "pancreas": {
+      "LDCT_traditional": {
+        "count": 7,
+        "auc_mean": 0.913,
+        "auc_min": 0.786,
+        "auc_max": 0.975,
+        "tier_breakdown": {
+          "unknown": 3,
+          "core": 2,
+          "extended": 2
+        },
+        "gap": false
+      },
+      "LDCT_LLM": {
+        "count": 2,
+        "auc_mean": 0.901,
+        "auc_min": 0.812,
+        "auc_max": 0.99,
+        "tier_breakdown": {
+          "core": 1,
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 21,
+        "auc_mean": 0.944,
+        "auc_min": 0.78,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "unknown": 7,
+          "extended": 6,
+          "low_if": 4,
+          "core": 4
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 4,
+        "auc_mean": 0.972,
+        "auc_min": 0.95,
+        "auc_max": 0.996,
+        "tier_breakdown": {
+          "unknown": 2,
+          "core": 2
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "gastric": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 1,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_traditional": {
+        "count": 14,
+        "auc_mean": 0.882,
+        "auc_min": 0.746,
+        "auc_max": 1.0,
+        "tier_breakdown": {
+          "core": 4,
+          "unknown": 4,
+          "extended": 3,
+          "low_if": 3
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 1,
+        "auc_mean": 0.81,
+        "auc_min": 0.81,
+        "auc_max": 0.81,
+        "tier_breakdown": {
+          "unknown": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "esophageal": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 13,
+        "auc_mean": 0.878,
+        "auc_min": 0.66,
+        "auc_max": 0.987,
+        "tier_breakdown": {
+          "core": 5,
+          "extended": 3,
+          "low_if": 3,
+          "unknown": 2
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    },
+    "nasopharyngeal": {
+      "LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_traditional": {
+        "count": 2,
+        "auc_mean": 0.97,
+        "auc_min": 0.97,
+        "auc_max": 0.97,
+        "tier_breakdown": {
+          "low_if": 1,
+          "extended": 1
+        },
+        "gap": false
+      },
+      "cfDNA_LDCT_traditional": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      },
+      "cfDNA_LDCT_LLM": {
+        "count": 0,
+        "auc_mean": null,
+        "auc_min": null,
+        "auc_max": null,
+        "tier_breakdown": {},
+        "gap": true
+      }
+    }
+  },
+  "totals_by_cancer": {
+    "lung": 194,
+    "breast": 29,
+    "colorectal": 28,
+    "liver": 29,
+    "prostate": 18,
+    "cervical": 16,
+    "ovarian": 17,
+    "endometrial": 8,
+    "gallbladder": 20,
+    "lymphoma": 9,
+    "bladder": 10,
+    "kidney": 12,
+    "pancreas": 34,
+    "gastric": 16,
+    "esophageal": 13,
+    "nasopharyngeal": 2
+  },
+  "totals_by_category": {
+    "LDCT_traditional": 119,
+    "LDCT_LLM": 19,
+    "cfDNA_traditional": 275,
+    "cfDNA_LDCT_traditional": 42,
+    "cfDNA_LDCT_LLM": 0
+  },
+  "gap_summary": {
+    "zero_cells": 44,
+    "total_cells": 80,
+    "coverage_pct": 45.0
+  }
+}

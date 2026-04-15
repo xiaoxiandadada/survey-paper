@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_043",
+  "pmid": "41319254",
+  "title": "Identification of PIWI-interacting RNAs based models for lung adenocarcinoma early detection: a multicenter cohort study.",
+  "year": null,
+  "journal": "Molecular biomedicine",
+  "doi": "10.1186/s43556-025-00368-2",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.918,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_026",
+  "pmid": "36524960",
+  "title": "Multimodal analysis of ctDNA methylation and fragmentomic profiles enhances detection of nonmetastatic colorectal cancer.",
+  "year": 2022,
+  "journal": "Future oncology (London, England)",
+  "doi": "10.2217/fon-2022-1041",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 159,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.989,
+    "sensitivity": 0.968,
+    "specificity": 0.96,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 3.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

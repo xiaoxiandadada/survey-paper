@@ -1,0 +1,35 @@
+{
+  "paper_id": "gastric_cfDNA_traditional_003",
+  "pmid": "40737022",
+  "title": "Exosomal Liquid Biopsy for the Early Detection of Gastric Cancer: The DESTINEX Multicenter Study.",
+  "year": 2025,
+  "journal": "JAMA surgery",
+  "doi": "10.1001/jamasurg.2025.2493",
+  "cancer_type": "gastric",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 480,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.963,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: gastric / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 120.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

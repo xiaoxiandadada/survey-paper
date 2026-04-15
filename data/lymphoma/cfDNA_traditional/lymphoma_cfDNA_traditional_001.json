@@ -1,0 +1,36 @@
+{
+  "paper_id": "lymphoma_cfDNA_traditional_001",
+  "pmid": "39564730",
+  "title": "Blood Plasma Methylated DNA Markers in the Detection of Lymphoma: Discovery, Validation, and Clinical Pilot.",
+  "year": 2024,
+  "journal": "American journal of hematology",
+  "doi": "10.1002/ajh.27533",
+  "cancer_type": "lymphoma",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.84,
+    "specificity": 0.84,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "PubMed search: lymphoma / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 10.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

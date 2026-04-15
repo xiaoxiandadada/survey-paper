@@ -1,0 +1,37 @@
+{
+  "paper_id": "prostate_cfDNA_traditional_011",
+  "pmid": "34157173",
+  "title": "Identification of Somatic Gene Signatures in Circulating Cell-Free DNA Associated with Disease Progression in Metastatic Prostate Cancer by a Novel Machine Learning Platform.",
+  "year": 2021,
+  "journal": "The oncologist",
+  "doi": "10.1002/onco.13869",
+  "cancer_type": "prostate",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 187,
+  "input_modalities": [
+    "cfDNA",
+    "clinical_features",
+    "blood_protein"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.91,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: prostate / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

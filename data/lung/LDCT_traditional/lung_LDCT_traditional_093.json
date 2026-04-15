@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_077",
+  "pmid": "38589197",
+  "title": "Multimodal modeling with low-dose CT and clinical information for diagnostic artificial intelligence on mediastinal tumors: a preliminary study.",
+  "year": null,
+  "journal": "BMJ open respiratory research",
+  "doi": "10.1136/bmjresp-2023-002249",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 30,
+  "input_modalities": [
+    "LDCT",
+    "clinical_features",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 105.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

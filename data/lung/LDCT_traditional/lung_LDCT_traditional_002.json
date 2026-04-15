@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_002",
+  "pmid": "35108060",
+  "title": "Lung cancer scRNA-seq and lipidomics reveal aberrant lipid metabolism for early-stage diagnosis.",
+  "year": null,
+  "journal": "Science translational medicine",
+  "doi": "10.1126/scitranslmed.abk2756",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 311,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "SVM",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.92,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 15.8,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

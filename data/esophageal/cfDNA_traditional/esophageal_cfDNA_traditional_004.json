@@ -1,0 +1,35 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_004",
+  "pmid": "41439274",
+  "title": "A machine-learning informed circulating microbial DNA signature for early diagnosis of esophageal adenocarcinoma.",
+  "year": 2025,
+  "journal": "Gut microbes",
+  "doi": "10.1080/19490976.2025.2604334",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": 46,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "XGBoost",
+  "performance_raw": {
+    "auc": 0.93,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 24.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

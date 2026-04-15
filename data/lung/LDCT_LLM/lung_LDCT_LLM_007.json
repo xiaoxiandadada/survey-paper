@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_LLM_007",
+  "pmid": "41161557",
+  "title": "Vision-language model-based semantic-guided imaging biomarker for lung nodule malignancy prediction.",
+  "year": 2025,
+  "journal": "Journal of biomedical informatics",
+  "doi": "10.1016/j.jbi.2025.104947",
+  "cancer_type": "lung",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.901,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: lung / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

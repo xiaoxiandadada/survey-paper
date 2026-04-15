@@ -1,0 +1,35 @@
+{
+  "paper_id": "endometrial_cfDNA_traditional_007",
+  "pmid": "36973218",
+  "title": "[The role of DNA methylation in the screening of endometrial cancer in postmenopausal women].",
+  "year": 2023,
+  "journal": "Zhonghua yi xue za zhi",
+  "doi": "10.3760/cma.j.cn112137-20220929-02058",
+  "cancer_type": "endometrial",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 56,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: endometrial / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

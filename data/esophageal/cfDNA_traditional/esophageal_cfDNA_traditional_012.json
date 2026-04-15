@@ -1,0 +1,35 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_012",
+  "pmid": "35148754",
+  "title": "A microRNA-based liquid biopsy signature for the early detection of esophageal squamous cell carcinoma: a retrospective, prospective and multicenter study.",
+  "year": 2022,
+  "journal": "Molecular cancer",
+  "doi": "10.1186/s12943-022-01507-x",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 108,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.83,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 27.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

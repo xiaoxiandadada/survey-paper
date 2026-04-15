@@ -1,0 +1,37 @@
+{
+  "paper_id": "liver_cfDNA_traditional_022",
+  "pmid": "36288287",
+  "title": "Epigenetic analysis of cell-free DNA by fragmentomic profiling.",
+  "year": 2022,
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "doi": "10.1073/pnas.2209852119",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.98,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "breast_cfDNA_traditional_021",
+  "pmid": "36012405",
+  "title": "Blood Test for Breast Cancer Screening through the Detection of Tumor-Associated Circulating Transcripts.",
+  "year": 2022,
+  "journal": "International journal of molecular sciences",
+  "doi": "10.3390/ijms23169140",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.902,
+    "specificity": 0.8,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

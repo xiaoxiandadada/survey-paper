@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_050",
+  "pmid": "35530343",
+  "title": "Development of Diagnosis Model for Early Lung Nodules Based on a Seven Autoantibodies Panel and Imaging Features.",
+  "year": null,
+  "journal": "Frontiers in oncology",
+  "doi": "10.3389/fonc.2022.883543",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 933,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.748,
+    "sensitivity": 0.07,
+    "specificity": 0.07,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

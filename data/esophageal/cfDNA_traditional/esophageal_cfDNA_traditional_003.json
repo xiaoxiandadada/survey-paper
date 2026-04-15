@@ -1,0 +1,35 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_003",
+  "pmid": "41553857",
+  "title": "Development and Validation of a Urinary Exosomal miRNA Diagnostic Panel for Early Detection of Esophageal Cancer.",
+  "year": 2026,
+  "journal": "Cancer science",
+  "doi": "10.1111/cas.70298",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.9,
+    "sensitivity": 0.66,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "internal_CV",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.9,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

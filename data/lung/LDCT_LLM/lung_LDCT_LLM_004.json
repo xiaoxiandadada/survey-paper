@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_LLM_004",
+  "pmid": "41828026",
+  "title": "Opportunities and Challenges of Visual Large Language Models in Imaging Diagnostics: Lessons from Brain Metastasis Detection in Clinical MRI.",
+  "year": 2026,
+  "journal": "Diagnostics (Basel, Switzerland)",
+  "doi": "10.3390/diagnostics16050749",
+  "cancer_type": "lung",
+  "category": "LDCT_LLM",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 24,
+  "input_modalities": [
+    "CT"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 0.04,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: lung / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

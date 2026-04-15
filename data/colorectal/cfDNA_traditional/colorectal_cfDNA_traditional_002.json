@@ -1,0 +1,36 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_002",
+  "pmid": "41431387",
+  "title": "A Multiomic Liquid Biopsy for the Earlier Detection of Colorectal Cancer.",
+  "year": 2025,
+  "journal": "Cancer prevention research (Philadelphia, Pa.)",
+  "doi": "10.1158/1940-6207.CAPR-25-0286",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 957,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.95,
+    "sensitivity": 0.9,
+    "specificity": 0.9,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 6.8,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

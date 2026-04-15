@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_027",
+  "pmid": "33482120",
+  "title": "Development and Cost Analysis of a Lung Nodule Management Strategy Combining Artificial Intelligence and Lung-RADS for Baseline Lung Cancer Screening.",
+  "year": null,
+  "journal": "Journal of the American College of Radiology : JACR",
+  "doi": "10.1016/j.jacr.2020.11.014",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.91,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 12.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

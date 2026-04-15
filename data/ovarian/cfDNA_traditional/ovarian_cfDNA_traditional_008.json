@@ -1,0 +1,35 @@
+{
+  "paper_id": "ovarian_cfDNA_traditional_008",
+  "pmid": "36499142",
+  "title": "Using Genomic Variation to Distinguish Ovarian High-Grade Serous Carcinoma from Benign Fallopian Tubes.",
+  "year": 2022,
+  "journal": "International journal of molecular sciences",
+  "doi": "10.3390/ijms232314814",
+  "cancer_type": "ovarian",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": null,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: ovarian / cfDNA_traditional. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

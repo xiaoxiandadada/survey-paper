@@ -1,0 +1,35 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_004",
+  "pmid": "41399682",
+  "title": "Bile cell-free DNA shows benefit as a potential sample for somatic mutation detection of resectable cholangiocarcinoma.",
+  "year": 2025,
+  "journal": "iLIVER",
+  "doi": "10.1016/j.iliver.2025.100206",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": 1.0
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

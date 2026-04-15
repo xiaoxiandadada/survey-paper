@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_026",
+  "pmid": "37969955",
+  "title": "A novel multimodal prediction model based on DNA methylation biomarkers and low-dose computed tomography images for identifying early-stage lung cancer.",
+  "year": null,
+  "journal": "Chinese journal of cancer research = Chung-kuo yen cheng yen chiu",
+  "doi": "10.21147/j.issn.1000-9604.2023.05.08",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": 42,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.894,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

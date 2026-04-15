@@ -1,0 +1,36 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_010",
+  "pmid": "38226541",
+  "title": "Using saliva epigenetic data to develop and validate a multivariable predictor of esophageal cancer status.",
+  "year": 2024,
+  "journal": "Epigenomics",
+  "doi": "10.2217/epi-2023-0248",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": 256,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.72,
+    "sensitivity": 0.88,
+    "specificity": 0.31,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

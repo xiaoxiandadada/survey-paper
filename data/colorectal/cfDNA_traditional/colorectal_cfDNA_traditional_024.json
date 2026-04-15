@@ -1,0 +1,35 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_022",
+  "pmid": "37794510",
+  "title": "Serum methylation of GALNT9, UPF3A, WARS, and LDB2 as noninvasive biomarkers for the early detection of colorectal cancer and advanced adenomas.",
+  "year": 2023,
+  "journal": "Clinical epigenetics",
+  "doi": "10.1186/s13148-023-01570-1",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 0.09,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_107",
+  "pmid": "34478913",
+  "title": "Interpretative computer-aided lung cancer diagnosis: From radiology analysis to malignancy evaluation.",
+  "year": null,
+  "journal": "Computer methods and programs in biomedicine",
+  "doi": "10.1016/j.cmpb.2021.106363",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.9627,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

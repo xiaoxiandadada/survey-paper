@@ -1,0 +1,36 @@
+{
+  "paper_id": "breast_cfDNA_traditional_022",
+  "pmid": "35765713",
+  "title": "Artificially Intelligent Nanoarray Detects Various Cancers by Liquid Biopsy of Volatile Markers.",
+  "year": 2022,
+  "journal": "Advanced healthcare materials",
+  "doi": "10.1002/adhm.202200356",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.8,
+    "specificity": 0.97,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

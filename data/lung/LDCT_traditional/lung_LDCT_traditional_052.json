@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_044",
+  "pmid": "41734977",
+  "title": "Longitudinal multisource clinical model for early lung cancer risk stratification and screening.",
+  "year": null,
+  "journal": "BMJ health & care informatics",
+  "doi": "10.1136/bmjhci-2025-101989",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 615,
+  "input_modalities": [
+    "LDCT",
+    "clinical_features"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.8316,
+    "sensitivity": 0.1617,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

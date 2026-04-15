@@ -1,0 +1,35 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_003",
+  "pmid": "40065506",
+  "title": "DNA methylation signatures of cervical pre-invasive and invasive disease: An epigenome-wide association study.",
+  "year": 2025,
+  "journal": "International journal of cancer",
+  "doi": "10.1002/ijc.35406",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 119,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.92,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

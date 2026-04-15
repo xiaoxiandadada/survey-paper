@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_036",
+  "pmid": "40264240",
+  "title": "Neutrophil-to-lymphocyte ratio as a prognostic marker for lung cancer in combined pulmonary fibrosis and emphysema patients.",
+  "year": null,
+  "journal": "European journal of medical research",
+  "doi": "10.1186/s40001-025-02595-3",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 80,
+  "input_modalities": [
+    "blood_protein"
+  ],
+  "model_type": "Cox",
+  "performance_raw": {
+    "auc": 0.651,
+    "sensitivity": 0.666,
+    "specificity": 0.621,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.5,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

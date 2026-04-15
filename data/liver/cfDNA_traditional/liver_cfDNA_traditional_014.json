@@ -1,0 +1,36 @@
+{
+  "paper_id": "liver_cfDNA_traditional_011",
+  "pmid": "39812132",
+  "title": "Porous Silicon Particle-Assisted Mass Spectrometry Technology Unlocks Serum Metabolic Fingerprints in the Progression From Chronic Hepatitis B to Hepatocellular Carcinoma.",
+  "year": 2025,
+  "journal": "ACS applied materials & interfaces",
+  "doi": "10.1021/acsami.4c17563",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 1433,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

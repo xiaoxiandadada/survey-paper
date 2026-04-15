@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_LDCT_LLM_002",
+  "pmid": "41447465",
+  "title": "Performance of ChatGPT-4o, Claude 3 Opus, and DeepSeek-R1 in BI-RADS Category 4 Classification and Malignancy Prediction From Mammography Reports: Retrospective Diagnostic Study.",
+  "year": 2025,
+  "journal": "JMIR medical informatics",
+  "doi": "10.2196/80182",
+  "cancer_type": "breast",
+  "category": "LDCT_LLM",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 307,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.64,
+    "sensitivity": 0.807,
+    "specificity": 0.683,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: breast / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

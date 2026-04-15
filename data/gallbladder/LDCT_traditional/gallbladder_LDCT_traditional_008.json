@@ -1,0 +1,35 @@
+{
+  "paper_id": "gallbladder_LDCT_traditional_005",
+  "pmid": "36434398",
+  "title": "Optimal radiological gallbladder lesion characterization by combining visual assessment with CT-based radiomics.",
+  "year": 2022,
+  "journal": "European radiology",
+  "doi": "10.1007/s00330-022-09281-6",
+  "cancer_type": "gallbladder",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 127,
+  "input_modalities": [
+    "CT"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.81,
+    "sensitivity": 0.91,
+    "specificity": 0.93,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

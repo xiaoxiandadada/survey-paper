@@ -1,0 +1,36 @@
+{
+  "paper_id": "gastric_cfDNA_traditional_007",
+  "pmid": "40244164",
+  "title": "Methylated Reprimo Cell-Free DNA as a Non-Invasive Biomarker for Gastric Cancer.",
+  "year": 2025,
+  "journal": "International journal of molecular sciences",
+  "doi": "10.3390/ijms26073333",
+  "cancer_type": "gastric",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 81,
+  "input_modalities": [
+    "CT",
+    "cfDNA"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.764,
+    "sensitivity": 0.7,
+    "specificity": 0.802,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: gastric / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

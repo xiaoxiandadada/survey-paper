@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_088",
+  "pmid": "30443438",
+  "title": "Predicting Nodule Malignancy using a CNN Ensemble Approach.",
+  "year": null,
+  "journal": "Proceedings of ... International Joint Conference on Neural Networks. International Joint Conference on Neural Networks",
+  "doi": "10.1109/IJCNN.2018.8489345",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.96,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

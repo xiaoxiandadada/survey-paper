@@ -1,0 +1,35 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_006",
+  "pmid": "40950328",
+  "title": "Tumor-informed circulating tumor DNA assay for surveillance post-liver transplantation in patients with hepatocellular and cholangiocarcinoma.",
+  "year": 2025,
+  "journal": "Journal of gastrointestinal oncology",
+  "doi": "10.21037/jgo-24-791",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.75,
+    "specificity": 0.75,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

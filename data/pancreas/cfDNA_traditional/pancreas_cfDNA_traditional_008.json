@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_008",
+  "pmid": "40311105",
+  "title": "Development and Validation of a Cell-Free DNA Fragmentomics-Based Model for Early Detection of Pancreatic Cancer.",
+  "year": 2025,
+  "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+  "doi": "10.1200/JCO.24.00287",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": 1167,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.992,
+    "sensitivity": 0.934,
+    "specificity": 0.952,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 42.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

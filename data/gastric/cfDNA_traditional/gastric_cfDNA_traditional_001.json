@@ -1,0 +1,35 @@
+{
+  "paper_id": "gastric_cfDNA_traditional_001",
+  "pmid": "41237359",
+  "title": "Evaluation of Raw Cell-Free DNA Sequences for Gastric Cancer Detection.",
+  "year": 2025,
+  "journal": "JCO precision oncology",
+  "doi": "10.1200/PO-25-00204",
+  "cancer_type": "gastric",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 404,
+  "input_modalities": [
+    "cfDNA"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.886,
+    "sensitivity": 0.789,
+    "specificity": 0.9,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: gastric / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 13.0,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

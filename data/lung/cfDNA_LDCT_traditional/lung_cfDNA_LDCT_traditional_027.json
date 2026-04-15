@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_027",
+  "pmid": "33901468",
+  "title": "Alu cell-free DNA concentration, Alu index, and LINE-1 hypomethylation as a cancer predictor.",
+  "year": null,
+  "journal": "Clinical biochemistry",
+  "doi": "10.1016/j.clinbiochem.2021.04.021",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

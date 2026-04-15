@@ -1,0 +1,35 @@
+{
+  "paper_id": "kidney_cfDNA_traditional_002",
+  "pmid": "39819319",
+  "title": "High-throughput methylation sequencing reveals novel biomarkers for the early detection of renal cell carcinoma.",
+  "year": 2025,
+  "journal": "BMC cancer",
+  "doi": "10.1186/s12885-024-13380-6",
+  "cancer_type": "kidney",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.999,
+    "sensitivity": 0.985,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: kidney / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.4,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

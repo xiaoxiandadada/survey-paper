@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_002",
+  "pmid": "39165498",
+  "title": "Development and validation of an integrated system for lung cancer screening and post-screening pulmonary nodules management: a proof-of-concept study (ASCEND-LUNG).",
+  "year": null,
+  "journal": "EClinicalMedicine",
+  "doi": "10.1016/j.eclinm.2024.102769",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 465,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.963,
+    "sensitivity": 0.992,
+    "specificity": 0.563,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 15.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

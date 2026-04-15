@@ -1,0 +1,36 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_001",
+  "pmid": "41777088",
+  "title": "An Extracellular Vesicle Protein-Based Machine Learning Framework for Early Detection of Oesophageal Squamous Cell Carcinoma: A Multicentre, Prospective Study.",
+  "year": 2026,
+  "journal": "Journal of extracellular vesicles",
+  "doi": "10.1002/jev2.70246",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 1018,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.987,
+    "sensitivity": 0.13,
+    "specificity": 0.822,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 45.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

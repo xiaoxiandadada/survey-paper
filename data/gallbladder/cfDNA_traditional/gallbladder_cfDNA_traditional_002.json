@@ -1,0 +1,36 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_002",
+  "pmid": "41919759",
+  "title": "Clonorchis sinensis and cholangiocarcinoma: molecular mechanisms and biomarker advances.",
+  "year": 2026,
+  "journal": "Parasite (Paris, France)",
+  "doi": "10.1051/parasite/2026011",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "prospective",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

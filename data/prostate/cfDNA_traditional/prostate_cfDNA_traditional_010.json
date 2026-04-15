@@ -1,0 +1,35 @@
+{
+  "paper_id": "prostate_cfDNA_traditional_008",
+  "pmid": "37643459",
+  "title": "Interfacial Polymerization Produced Magnetic Particles with Nano-Filopodia for Highly Accurate Liquid Biopsy in the PSA Gray Zone.",
+  "year": 2023,
+  "journal": "Advanced materials (Deerfield Beach, Fla.)",
+  "doi": "10.1002/adma.202303821",
+  "cancer_type": "prostate",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.981,
+    "sensitivity": 1.0,
+    "specificity": 0.933,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: prostate / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

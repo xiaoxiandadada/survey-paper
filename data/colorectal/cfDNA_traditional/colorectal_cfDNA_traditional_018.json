@@ -1,0 +1,36 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_016",
+  "pmid": "39073362",
+  "title": "Multidimensional Fragmentomics Enables Early and Accurate Detection of Colorectal Cancer.",
+  "year": 2024,
+  "journal": "Cancer research",
+  "doi": "10.1158/0008-5472.CAN-23-3486",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 360,
+  "input_modalities": [
+    "cfDNA",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "ensemble",
+  "performance_raw": {
+    "auc": 0.986,
+    "sensitivity": 0.98,
+    "specificity": 0.9147,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 11.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

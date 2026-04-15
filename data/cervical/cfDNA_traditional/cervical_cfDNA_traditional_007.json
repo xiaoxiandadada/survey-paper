@@ -1,0 +1,36 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_007",
+  "pmid": "35266975",
+  "title": "HPV and DNA Methylation Testing in Urine for Cervical Intraepithelial Neoplasia and Cervical Cancer Detection.",
+  "year": 2022,
+  "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+  "doi": "10.1158/1078-0432.CCR-21-3710",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 587,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.84,
+    "sensitivity": 0.7,
+    "specificity": 0.96,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

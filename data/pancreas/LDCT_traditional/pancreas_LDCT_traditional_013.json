@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_LDCT_traditional_007",
+  "pmid": "41083668",
+  "title": "Deep learning CT model for stratified diagnosis of pancreatic cystic neoplasms: multicenter development, validation, and real-world clinical impact.",
+  "year": 2025,
+  "journal": "NPJ digital medicine",
+  "doi": "10.1038/s41746-025-01970-y",
+  "cancer_type": "pancreas",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 1835,
+  "input_modalities": [
+    "CT"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.786,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 15.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

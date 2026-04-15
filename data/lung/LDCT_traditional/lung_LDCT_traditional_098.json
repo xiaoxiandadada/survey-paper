@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_082",
+  "pmid": "34573951",
+  "title": "A Low-Dose CT-Based Radiomic Model to Improve Characterization and Screening Recall Intervals of Indeterminate Prevalent Pulmonary Nodules.",
+  "year": null,
+  "journal": "Diagnostics (Basel, Switzerland)",
+  "doi": "10.3390/diagnostics11091610",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.89,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_003",
+  "pmid": "41675520",
+  "title": "Noninvasive detection of pancreatic ductal adenocarcinoma in high-risk patients using miRNA from urinary extracellular vesicles.",
+  "year": 2026,
+  "journal": "Frontiers in oncology",
+  "doi": "10.3389/fonc.2025.1682072",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.89,
+    "sensitivity": null,
+    "specificity": 0.79,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

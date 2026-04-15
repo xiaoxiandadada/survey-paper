@@ -1,0 +1,39 @@
+{
+  "paper_id": "lung_LDCT_traditional_040",
+  "pmid": "41430273",
+  "title": "Dynamic screening initiation using 16 plasma protein biomarkers with polygenic risk and PLCOm2012: a precision prevention framework for lung cancer.",
+  "year": null,
+  "journal": "Journal of translational medicine",
+  "doi": "10.1186/s12967-025-07468-1",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "blood_protein",
+    "clinical_features",
+    "proteomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.85,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

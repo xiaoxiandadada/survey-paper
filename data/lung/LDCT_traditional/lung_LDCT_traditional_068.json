@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_057",
+  "pmid": "34871936",
+  "title": "Performance of a deep learning-based lung nodule detection system as an alternative reader in a Chinese lung cancer screening program.",
+  "year": null,
+  "journal": "European journal of radiology",
+  "doi": "10.1016/j.ejrad.2021.110068",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 360,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.901,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 12.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_010",
+  "pmid": "40257142",
+  "title": "Diagnostic accuracy of cfDNA levels in gallbladder cancer: A study using qPCR & threshold evaluation.",
+  "year": 2025,
+  "journal": "The Indian journal of medical research",
+  "doi": "10.25259/IJMR_1651_2024",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.94,
+    "sensitivity": 0.05,
+    "specificity": 0.05,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

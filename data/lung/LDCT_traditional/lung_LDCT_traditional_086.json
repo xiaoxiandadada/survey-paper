@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_070",
+  "pmid": "33240975",
+  "title": "DeepLN: an artificial intelligence-based automated system for lung cancer screening.",
+  "year": null,
+  "journal": "Annals of translational medicine",
+  "doi": "10.21037/atm-20-4461",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.9593,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

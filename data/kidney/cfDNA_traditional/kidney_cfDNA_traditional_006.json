@@ -1,0 +1,35 @@
+{
+  "paper_id": "kidney_cfDNA_traditional_005",
+  "pmid": "36926819",
+  "title": "Liquid Biopsy-Based Volatile Organic Compounds from Blood and Urine and Their Combined Data Sets for Highly Accurate Detection of Cancer.",
+  "year": 2023,
+  "journal": "ACS sensors",
+  "doi": "10.1021/acssensors.2c02422",
+  "cancer_type": "kidney",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.8,
+    "specificity": 0.03,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: kidney / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "liver_cfDNA_traditional_010",
+  "pmid": "40135830",
+  "title": "Cost-Effective Identification of Hepatocellular Carcinoma from Cirrhosis or Chronic Hepatitis Virus Infection Using Eight Methylated Plasma DNA Markers.",
+  "year": 2025,
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "doi": "10.1002/advs.202411945",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 85,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.974,
+    "specificity": 0.03,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 15.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

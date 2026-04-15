@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_069",
+  "pmid": "38254644",
+  "title": "Combining Low-Dose Computer-Tomography-Based Radiomics and Serum Metabolomics for Diagnosis of Malignant Nodules in Participants of Lung Cancer Screening Studies.",
+  "year": null,
+  "journal": "Biomolecules",
+  "doi": "10.3390/biom14010044",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 1086,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.83,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

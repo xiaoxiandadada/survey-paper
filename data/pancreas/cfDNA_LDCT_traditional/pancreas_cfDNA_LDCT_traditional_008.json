@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_LDCT_traditional_002",
+  "pmid": "39937880",
+  "title": "Early detection of pancreatic cancer by a high-throughput protease-activated nanosensor assay.",
+  "year": 2025,
+  "journal": "Science translational medicine",
+  "doi": "10.1126/scitranslmed.adq3110",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 0.73,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 15.8,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

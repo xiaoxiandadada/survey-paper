@@ -1,0 +1,36 @@
+{
+  "paper_id": "breast_cfDNA_traditional_012",
+  "pmid": "39519111",
+  "title": "Discovery of Plasma Lipids as Potential Biomarkers Distinguishing Breast Cancer Patients from Healthy Controls.",
+  "year": 2024,
+  "journal": "International journal of molecular sciences",
+  "doi": "10.3390/ijms252111559",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.95,
+    "sensitivity": 0.91,
+    "specificity": 0.79,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

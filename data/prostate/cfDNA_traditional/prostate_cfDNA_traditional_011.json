@@ -1,0 +1,36 @@
+{
+  "paper_id": "prostate_cfDNA_traditional_009",
+  "pmid": "37453366",
+  "title": "Explainable artificial intelligence to predict and identify prostate cancer tissue by gene expression.",
+  "year": 2023,
+  "journal": "Computer methods and programs in biomedicine",
+  "doi": "10.1016/j.cmpb.2023.107719",
+  "cancer_type": "prostate",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.84,
+    "sensitivity": 0.9,
+    "specificity": 0.9,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: prostate / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

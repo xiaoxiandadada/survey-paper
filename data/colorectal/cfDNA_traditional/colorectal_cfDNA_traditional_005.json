@@ -1,0 +1,35 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_005",
+  "pmid": "41347414",
+  "title": "Development of liquid biopsy for screening colorectal cancer through the combination of an antibody microarray-based metal-enhanced sandwich immunofluorescent assay of cytokines with machine learning.",
+  "year": 2025,
+  "journal": "The Analyst",
+  "doi": "10.1039/d5an01041a",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.92,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

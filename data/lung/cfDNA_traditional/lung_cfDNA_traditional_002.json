@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_002",
+  "pmid": "37101220",
+  "title": "Accurate detection of early-stage lung cancer using a panel of circulating cell-free DNA methylation biomarkers.",
+  "year": null,
+  "journal": "Biomarker research",
+  "doi": "10.1186/s40364-023-00486-5",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 96,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.94,
+    "sensitivity": 0.81,
+    "specificity": 0.98,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.8,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

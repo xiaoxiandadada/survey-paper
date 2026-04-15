@@ -1,0 +1,36 @@
+{
+  "paper_id": "endometrial_cfDNA_traditional_002",
+  "pmid": "41385140",
+  "title": "Advances in endometrial cancer screening: a comprehensive review of current methods and emerging technologies.",
+  "year": 2025,
+  "journal": "International journal of clinical oncology",
+  "doi": "10.1007/s10147-025-02941-9",
+  "cancer_type": "endometrial",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "imaging",
+    "cfDNA_methylation"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.625,
+    "specificity": 0.678,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: endometrial / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 42.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

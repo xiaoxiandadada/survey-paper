@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_LDCT_LLM_001",
+  "pmid": "41532302",
+  "title": "Leveraging pretrained vision-language model for enhanced breast cancer diagnosis with multi-view mammography.",
+  "year": 2026,
+  "journal": "Medical physics",
+  "doi": "10.1002/mp.70261",
+  "cancer_type": "breast",
+  "category": "LDCT_LLM",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "Transformer",
+  "performance_raw": {
+    "auc": 0.841,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "Supplemental search: breast / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

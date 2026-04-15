@@ -1,0 +1,38 @@
+{
+  "paper_id": "lung_LDCT_traditional_006",
+  "pmid": "35565275",
+  "title": "Potential of Inflammatory Protein Signatures for Enhanced Selection of People for Lung Cancer Screening.",
+  "year": null,
+  "journal": "Cancers",
+  "doi": "10.3390/cancers14092146",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "RCT",
+  "cohort_type": "screening",
+  "sample_size": 9940,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "blood_protein",
+    "clinical_features"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.811,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.2,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

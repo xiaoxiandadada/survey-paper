@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_cfDNA_traditional_010",
+  "pmid": "39587849",
+  "title": "Subtype-Specific Detection in Stage Ia Breast Cancer: Integrating Raman Spectroscopy, Machine Learning, and Liquid Biopsy for Personalised Diagnostics.",
+  "year": 2024,
+  "journal": "Journal of biophotonics",
+  "doi": "10.1002/jbio.202400427",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.98,
+    "sensitivity": 0.9,
+    "specificity": 0.9,
+    "early_stage_sensitivity": 0.9
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

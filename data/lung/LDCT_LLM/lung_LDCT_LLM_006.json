@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_LLM_006",
+  "pmid": "41438724",
+  "title": "Performance of Large Language Models in Lung Cancer Clinical Decision-Making: A Comparative Analysis Based on DeepSeek, Grok, and GPT.",
+  "year": 2025,
+  "journal": "Cureus",
+  "doi": "10.7759/cureus.99026",
+  "cancer_type": "lung",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: lung / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

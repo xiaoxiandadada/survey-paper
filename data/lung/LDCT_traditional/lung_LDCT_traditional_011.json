@@ -1,0 +1,38 @@
+{
+  "paper_id": "lung_LDCT_traditional_011",
+  "pmid": "36634294",
+  "title": "Sybil: A Validated Deep Learning Model to Predict Future Lung Cancer Risk From a Single Low-Dose Chest Computed Tomography.",
+  "year": null,
+  "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+  "doi": "10.1200/JCO.22.01345",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 42.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

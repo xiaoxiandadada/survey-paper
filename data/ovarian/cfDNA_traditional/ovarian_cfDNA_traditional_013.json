@@ -1,0 +1,36 @@
+{
+  "paper_id": "ovarian_cfDNA_traditional_013",
+  "pmid": "35370009",
+  "title": "Methylated DNA markers for plasma detection of ovarian cancer: Discovery, validation, and clinical feasibility.",
+  "year": 2022,
+  "journal": "Gynecologic oncology",
+  "doi": "10.1016/j.ygyno.2022.03.018",
+  "cancer_type": "ovarian",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.91,
+    "sensitivity": 0.91,
+    "specificity": 0.79,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: ovarian / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

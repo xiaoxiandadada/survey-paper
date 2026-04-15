@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_cfDNA_traditional_011",
+  "pmid": "39586755",
+  "title": "Detection of brain metastases from blood using Brain nanoMET sensor: Extracellular vesicles as a dynamic marker for metastatic brain tumors.",
+  "year": 2024,
+  "journal": "Biosensors & bioelectronics",
+  "doi": "10.1016/j.bios.2024.116968",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

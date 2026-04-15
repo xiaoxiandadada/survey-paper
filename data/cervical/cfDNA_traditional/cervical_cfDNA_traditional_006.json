@@ -1,0 +1,36 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_006",
+  "pmid": "38448375",
+  "title": "High-grade cervical lesions diagnosed by JAM3/PAX1 methylation in high-risk human papillomavirus-infected patients.",
+  "year": 2024,
+  "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+  "doi": "10.11817/j.issn.1672-7347.2023.230175",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 136,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.03,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

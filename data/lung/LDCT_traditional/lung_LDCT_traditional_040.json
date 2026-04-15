@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_035",
+  "pmid": "36929398",
+  "title": "Recalibration of a Deep Learning Model for Low-Dose Computed Tomographic Images to Inform Lung Cancer Screening Intervals.",
+  "year": null,
+  "journal": "JAMA network open",
+  "doi": "10.1001/jamanetworkopen.2023.3273",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.87,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 13.8,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

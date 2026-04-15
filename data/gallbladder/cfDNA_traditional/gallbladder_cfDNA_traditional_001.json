@@ -1,0 +1,35 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_001",
+  "pmid": "41955846",
+  "title": "Extra-hepatic cholangiocarcinoma diagnosis: from classical pathological analysis to the emerging omics tests.",
+  "year": 2026,
+  "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+  "doi": "10.1016/j.ejso.2026.111770",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.5,
+    "specificity": 0.15,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

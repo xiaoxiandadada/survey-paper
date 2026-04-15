@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_014",
+  "pmid": "39146624",
+  "title": "Non-invasive diagnosis of pulmonary nodules by circulating tumor DNA methylation: A prospective multicenter study.",
+  "year": null,
+  "journal": "Lung cancer (Amsterdam, Netherlands)",
+  "doi": "10.1016/j.lungcan.2024.107930",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 61,
+  "input_modalities": [
+    "CT",
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.815,
+    "sensitivity": 0.744,
+    "specificity": 0.737,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.5,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

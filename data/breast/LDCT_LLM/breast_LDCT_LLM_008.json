@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_LDCT_LLM_003",
+  "pmid": "41013591",
+  "title": "AI-driven MRI biomarker for triple-class HER2 expression classification in breast cancer: a large-scale multicenter study.",
+  "year": 2025,
+  "journal": "Breast cancer research : BCR",
+  "doi": "10.1186/s13058-025-02118-2",
+  "cancer_type": "breast",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "CT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.821,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Supplemental search: breast / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 11.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

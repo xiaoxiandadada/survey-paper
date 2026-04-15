@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_071",
+  "pmid": "32072260",
+  "title": "Automatic opportunistic osteoporosis screening using low-dose chest computed tomography scans obtained for lung cancer screening.",
+  "year": null,
+  "journal": "European radiology",
+  "doi": "10.1007/s00330-020-06679-y",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.927,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

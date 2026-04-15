@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_LLM_001",
+  "pmid": "41419702",
+  "title": "Harnessing Native-Resolution 2D Embeddings for Lung Cancer Classification: A Feasibility Study with the RAD-DINO Self-supervised Foundation Model.",
+  "year": null,
+  "journal": "Journal of imaging informatics in medicine",
+  "doi": "10.1007/s10278-025-01748-4",
+  "cancer_type": "lung",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 1984,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.705,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

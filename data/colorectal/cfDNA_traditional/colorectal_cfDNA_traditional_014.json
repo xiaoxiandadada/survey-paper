@@ -1,0 +1,36 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_012",
+  "pmid": "39718982",
+  "title": "DNA Methylation Analysis on Anal Swabs for Anal Cancer Screening in People Living With Human Immunodeficiency Virus.",
+  "year": 2024,
+  "journal": "The Journal of infectious diseases",
+  "doi": "10.1093/infdis/jiae627",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "cross_sectional",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.68,
+    "sensitivity": 0.43,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

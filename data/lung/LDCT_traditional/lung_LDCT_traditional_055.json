@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_046",
+  "pmid": "40141842",
+  "title": "New Perspectives on Lung Cancer Screening and Artificial Intelligence.",
+  "year": null,
+  "journal": "Life (Basel, Switzerland)",
+  "doi": "10.3390/life15030498",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "RCT",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "imaging"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.9,
+    "specificity": 0.9,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 6.4,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

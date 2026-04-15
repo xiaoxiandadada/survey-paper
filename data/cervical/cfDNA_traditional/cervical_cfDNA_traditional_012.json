@@ -1,0 +1,36 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_011",
+  "pmid": "31606044",
+  "title": "Methylation estimates the risk of precancer in HPV-infected women with discrepant results between cytology and HPV16/18 genotyping.",
+  "year": 2019,
+  "journal": "Clinical epigenetics",
+  "doi": "10.1186/s13148-019-0743-9",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.75,
+    "sensitivity": 0.05,
+    "specificity": 0.05,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "endometrial_cfDNA_traditional_008",
+  "pmid": "31779688",
+  "title": "Combined genetic mutations and DNA-methylated genes as biomarkers for endometrial cancer detection from cervical scrapings.",
+  "year": 2019,
+  "journal": "Clinical epigenetics",
+  "doi": "10.1186/s13148-019-0765-3",
+  "cancer_type": "endometrial",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 12,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.703,
+    "sensitivity": 0.86,
+    "specificity": 0.22,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: endometrial / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

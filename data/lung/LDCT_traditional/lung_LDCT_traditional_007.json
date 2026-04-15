@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_007",
+  "pmid": "34017001",
+  "title": "Deep learning predicts cardiovascular disease risks from lung cancer screening low dose computed tomography.",
+  "year": null,
+  "journal": "Nature communications",
+  "doi": "10.1038/s41467-021-23235-4",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 2085,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.768,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 14.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

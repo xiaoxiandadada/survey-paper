@@ -1,0 +1,36 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_018",
+  "pmid": "38704642",
+  "title": "Identification and validation of the surface proteins FIBG, PDGF-β, and TGF-β on serum extracellular vesicles for non-invasive detection of colorectal cancer: experimental study.",
+  "year": 2024,
+  "journal": "International journal of surgery (London, England)",
+  "doi": "10.1097/JS9.0000000000001533",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 37,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.882,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

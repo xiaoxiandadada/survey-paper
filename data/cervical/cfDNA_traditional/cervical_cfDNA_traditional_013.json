@@ -1,0 +1,35 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_012",
+  "pmid": "30955437",
+  "title": "Complementarity between miRNA expression analysis and DNA methylation analysis in hrHPV-positive cervical scrapes for the detection of cervical disease.",
+  "year": 2019,
+  "journal": "Epigenetics",
+  "doi": "10.1080/15592294.2019.1600390",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.834,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

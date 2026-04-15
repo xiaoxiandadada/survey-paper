@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_LDCT_traditional_004",
+  "pmid": "41377378",
+  "title": "Artificial Intelligence in IPMN diagnosis: bridging promise and clinical reality.",
+  "year": 2025,
+  "journal": "Annals of medicine and surgery (2012)",
+  "doi": "10.1097/MS9.0000000000004170",
+  "cancer_type": "pancreas",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.94,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

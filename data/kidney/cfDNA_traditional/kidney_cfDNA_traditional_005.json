@@ -1,0 +1,36 @@
+{
+  "paper_id": "kidney_cfDNA_traditional_004",
+  "pmid": "41249499",
+  "title": "Early detection of urological tumors based on genomic characteristics of cell-free DNA fragments: a multi-center study.",
+  "year": 2025,
+  "journal": "NPJ precision oncology",
+  "doi": "10.1038/s41698-025-01130-1",
+  "cancer_type": "kidney",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 758,
+  "input_modalities": [
+    "cfDNA",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "XGBoost",
+  "performance_raw": {
+    "auc": 0.96,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: kidney / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 10.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

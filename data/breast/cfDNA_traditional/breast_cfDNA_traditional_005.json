@@ -1,0 +1,36 @@
+{
+  "paper_id": "breast_cfDNA_traditional_005",
+  "pmid": "41312933",
+  "title": "Mitochondrial Epigenetic Alterations Induced by Biomass Smoke Exposure and Their Role in Age-Related Breast Cancer Risk: A Machine Learning-Based Predictive Study.",
+  "year": 2025,
+  "journal": "Asian Pacific journal of cancer prevention : APJCP",
+  "doi": "10.31557/APJCP.2025.26.11.4069",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "cross_sectional",
+  "cohort_type": "clinical",
+  "sample_size": 205,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 6.8,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

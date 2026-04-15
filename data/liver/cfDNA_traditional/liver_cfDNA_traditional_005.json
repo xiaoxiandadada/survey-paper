@@ -1,0 +1,36 @@
+{
+  "paper_id": "liver_cfDNA_traditional_003",
+  "pmid": "41385729",
+  "title": "The alternative splicing landscape of hepatocellular carcinoma and its potential for HCC detection.",
+  "year": 2025,
+  "journal": "Hepatology communications",
+  "doi": "10.1097/HC9.0000000000000838",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.81,
+    "specificity": 0.78,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 13.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

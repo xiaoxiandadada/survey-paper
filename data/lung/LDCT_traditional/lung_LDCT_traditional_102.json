@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_084",
+  "pmid": "39409894",
+  "title": "Vascular Biomarkers for Pulmonary Nodule Malignancy: Arteries vs. Veins.",
+  "year": null,
+  "journal": "Cancers",
+  "doi": "10.3390/cancers16193274",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 146,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.78,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.2,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

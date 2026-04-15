@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_022",
+  "pmid": "36909593",
+  "title": "Early Detection of Lung Cancer in the NLST Dataset.",
+  "year": null,
+  "journal": "medRxiv : the preprint server for health sciences",
+  "doi": "10.1101/2023.03.01.23286632",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 1138,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.85,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

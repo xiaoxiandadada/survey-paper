@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_LDCT_traditional_004",
+  "pmid": "39477082",
+  "title": "Multimodal Pancreatic Cancer Detection Using Methylated DNA Biomarkers in Pancreatic Juice and Plasma CA 19-9: A Prospective Multicenter Study.",
+  "year": 2024,
+  "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+  "doi": "10.1016/j.cgh.2024.07.048",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.95,
+    "sensitivity": 0.19,
+    "specificity": 0.19,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 13.6,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

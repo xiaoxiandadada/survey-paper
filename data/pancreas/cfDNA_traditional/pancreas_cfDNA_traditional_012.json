@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_011",
+  "pmid": "38561976",
+  "title": "Circulating cell-free DNA methylation-based multi-omics analysis allows early diagnosis of pancreatic ductal adenocarcinoma.",
+  "year": 2024,
+  "journal": "Molecular oncology",
+  "doi": "10.1002/1878-0261.13643",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.887,
+    "specificity": 0.968,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 6.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_traditional_042",
+  "pmid": "40227817",
+  "title": "Exploratory Algorithms to Aid in Risk of Malignancy Prediction for Indeterminate Pulmonary Nodules.",
+  "year": null,
+  "journal": "Cancers",
+  "doi": "10.3390/cancers17071231",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 379,
+  "input_modalities": [
+    "blood_protein",
+    "clinical_features"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.872,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 5.2,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

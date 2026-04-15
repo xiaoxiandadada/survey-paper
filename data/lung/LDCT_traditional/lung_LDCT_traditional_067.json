@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_056",
+  "pmid": "40121609",
+  "title": "Construction and validation of a risk stratification model based on Lung-RADS® v2022 and CT features for predicting the invasive pure ground-glass pulmonary nodules in China.",
+  "year": null,
+  "journal": "Insights into imaging",
+  "doi": "10.1186/s13244-025-01937-3",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 169,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

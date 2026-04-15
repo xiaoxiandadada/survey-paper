@@ -1,0 +1,36 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_014",
+  "pmid": "29930741",
+  "title": "Triage of high-risk HPV-positive women in population-based screening by miRNA expression analysis in cervical scrapes; a feasibility study.",
+  "year": 2018,
+  "journal": "Clinical epigenetics",
+  "doi": "10.1186/s13148-018-0509-9",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 58,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.7,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

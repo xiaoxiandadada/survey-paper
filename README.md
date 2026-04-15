@@ -1,142 +1,166 @@
-# 📚 Survey Paper — Cancer Screening Literature Support Library
+# Cancer Early Detection AI — Literature Survey Repository
 
-> **Research Question:** In lung cancer screening, how does LDCT / routine physical exam multimodal / AI model performance compare with cfDNA methylation-based multi-cancer early detection (MCED)?
+> A structured, machine-readable database of AI-assisted cancer early detection papers across **16 cancer types × 5 technical categories**.
 
----
-
-## 🎯 Scope & Inclusion Criteria
-
-| Field | Value |
-|-------|-------|
-| **Search database** | PubMed |
-| **Date range** | 2018–2026 |
-| **Language** | English only |
-| **Papers searched** | 500 |
-| **Papers included** | 271 (54.2%) |
-| **Core library** | 38 papers (score ≥ 50) |
-| **Last updated** | 2026-04-15 |
-
-**Inclusion:** Original research; reports AUC / sensitivity / specificity; related to screening, early detection, risk assessment, or multimodal fusion.
-
-**Exclusion:** Pure reviews, systematic reviews, meta-analyses, non-cancer screening, non-human studies, no performance metrics.
+**Last updated:** 2026-04-15 | **Total papers:** 455 | **Coverage:** 36/80 cells (45%)
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 survey-paper/
-├── README.md                          # This file
-├── schema.json                        # Complete field definitions
 ├── data/
-│   ├── raw_search_results.json        # 500 raw PubMed records
-│   ├── filer_results.json             # 500 papers with include/exclude decisions
-│   ├── extracted_fields.json          # 271 included papers, 13 extracted fields
-│   ├── scored_results.json            # 271 papers with 5-dimension scores
-│   ├── full_library.json              # 271 papers, all fields merged
-│   └── tsv/
-│       ├── all_papers.tsv             # All 500 papers (filer fields)
-│       ├── included_papers.tsv        # 271 included papers (all fields)
-│       ├── core_library.tsv           # 38 core papers (score ≥ 50)
-│       ├── cat1_cfdna_methylation_mced.tsv
-│       ├── cat2_single_modality_screening.tsv
-│       ├── cat3_physical_exam_traditional_model.tsv
-│       ├── cat4_physical_exam_ai_model.tsv
-│       └── cat5_methylation_multimodal.tsv
-└── categories/
-    ├── cat1_cfdna_methylation_mced.md
-    ├── cat2_single_modality_screening.md
-    ├── cat3_physical_exam_traditional_model.md
-    ├── cat4_physical_exam_ai_model.md
-    └── cat5_methylation_multimodal.md
+│   ├── lung/
+│   │   ├── LDCT_traditional/      # 107 papers
+│   │   ├── LDCT_LLM/              #   8 papers
+│   │   ├── cfDNA_traditional/     #  52 papers
+│   │   ├── cfDNA_LDCT_traditional/#  27 papers
+│   │   └── cfDNA_LDCT_LLM/        #   0 papers
+│   ├── breast/
+│   │   └── ...
+│   └── [16 cancer type folders]
+├── index.json              # Flat array of all 455 papers
+├── coverage_matrix.json    # 16×5 matrix with counts, AUC stats, gap flags
+├── coverage_report.md      # Full statistical report
+└── schema.json             # JSON schema for individual paper files
 ```
 
 ---
 
-## 🗂️ Categories
+## 5 Technical Categories
 
-| # | Category | Papers | Core |
-|---|----------|--------|------|
-| 1 | [cfDNA Methylation & MCED](categories/cat1_cfdna_methylation_mced.md) | 27 | 3 |
-| 2 | [Single-Modality Screening (LDCT/Imaging)](categories/cat2_single_modality_screening.md) | 77 | 5 |
-| 3 | [Physical Exam + Traditional Model](categories/cat3_physical_exam_traditional_model.md) | 9 | 2 |
-| 4 | [Physical Exam / Imaging + AI Model](categories/cat4_physical_exam_ai_model.md) | 120 | 19 |
-| 5 | ⭐ [Methylation + Multimodal Integration](categories/cat5_methylation_multimodal.md) | 38 | 9 |
-
----
-
-## 📋 Field Schema
-
-### Filer Fields (all 500 papers)
-| Field | Type | Description |
-|-------|------|-------------|
-| `pmid` | string | PubMed ID |
-| `title` | string | Paper title |
-| `abstract` | string | Full abstract |
-| `doi` | string\|null | DOI |
-| `journal` | string | Journal name |
-| `pub_year` | integer | Publication year |
-| `authors` | list | Author list |
-| `cancer_type` | string | lung / multi_cancer / other |
-| `modality` | string | Primary modality |
-| `task_type` | string | screening / diagnosis / risk_assessment / early_detection |
-| `include_decision` | boolean | true = passes inclusion criteria |
-| `exclusion_reason` | string\|null | Reason if excluded |
-| `probable_relevance_score` | float 0–1 | Estimated relevance |
-
-### Extraction Fields (271 included papers)
-| Field | Type | Description |
-|-------|------|-------------|
-| `study_design` | string | RCT / prospective_cohort / retrospective_cohort / case_control / cross_sectional / other |
-| `screening_or_clinical` | string | screening / clinical_diagnosis / both |
-| `cohort_size` | integer\|null | Total participants |
-| `cancer_type` | string | lung / multi_cancer / other |
-| `stage_info` | string\|null | early / late / mixed |
-| `input_modalities` | list | cfDNA_methylation / LDCT / CT / blood_protein / clinical_features / imaging / other |
-| `model_type` | string\|null | deep_learning / logistic_regression / Cox / SVM / random_forest / ensemble / other |
-| `comparator` | string\|null | Description of comparison arm |
-| `auc` | float\|null | Area under ROC curve (0–1) |
-| `sensitivity` | float\|null | Sensitivity (0–1) |
-| `specificity` | float\|null | Specificity (0–1) |
-| `validation_type` | string | internal_CV / external_validation / prospective / none |
-| `key_limitations` | string\|null | Key study limitations |
-
-### Scoring Fields (271 included papers)
-| Field | Max | Description |
-|-------|-----|-------------|
-| `relevance` | 25 | Direct relevance to lung cancer screening / cfDNA / MCED / LDCT / AI |
-| `design_quality` | 25 | Study design quality (design type + sample size + validation) |
-| `metric_comparability` | 20 | Completeness of AUC/sensitivity/specificity reporting |
-| `generalizability` | 15 | Multi-center / external validation / population representativeness |
-| `impact` | 15 | Journal tier / landmark study status / recency |
-| `total_score` | 100 | Sum of all dimensions |
-| `core_library` | bool | true if total_score ≥ 50 |
-| `category` | string | One of 5 category keys |
-
-> **Note on scoring:** Scores are derived from abstract text only (full-text unavailable via API). Metric fields (AUC/sensitivity/specificity) have ~15–25% abstract extraction coverage; values in full text are marked `null` but the paper is not penalized. The `core_library` threshold of 50/100 is calibrated for abstract-only scoring.
+| Category | Description |
+|----------|-------------|
+| `LDCT_traditional` | Low-dose CT imaging + classical ML (CNN, radiomics, random forest, SVM, etc.) |
+| `LDCT_LLM` | CT imaging + foundation models / large language models (GPT-4, SAM, vision-language models) |
+| `cfDNA_traditional` | Liquid biopsy (cfDNA / ctDNA / methylation / fragmentomics) + classical ML |
+| `cfDNA_LDCT_traditional` | Multimodal: cfDNA + CT imaging + classical ML |
+| `cfDNA_LDCT_LLM` | Multimodal: cfDNA + CT + foundation models *(emerging frontier — 0 papers as of 2026)* |
 
 ---
 
-## 🔍 Search Strategies
+## 16 Cancer Types
 
-Six complementary PubMed queries (2018–2026, English, human studies):
-
-1. **cfDNA methylation:** `(cfDNA OR "cell-free DNA") AND methylation AND ("lung cancer") AND (screening OR detection) AND (AUC OR sensitivity OR specificity)`
-2. **LDCT + AI:** `(LDCT OR "low-dose CT") AND ("lung cancer") AND ("artificial intelligence" OR "deep learning" OR "machine learning" OR multimodal) AND (screening OR detection)`
-3. **MCED:** `("multi-cancer early detection" OR MCED) AND (methylation OR cfDNA) AND ("lung cancer" OR lung)`
-4. **Physical exam + model:** `("physical examination" OR "health checkup") AND ("lung cancer") AND ("risk model" OR "prediction model") AND (screening OR detection)`
-5. **Checkup + broad:** `("lung cancer") AND ("risk prediction" OR "risk stratification") AND ("clinical features" OR "biomarker") AND (screening OR "early detection")`
-6. **Methylation + multimodal:** `(methylation OR "cfDNA methylation") AND ("lung cancer") AND (multimodal OR "multi-omics" OR "liquid biopsy" OR imaging) AND (screening OR detection)`
+lung · breast · colorectal · liver · prostate · cervical · ovarian · endometrial · gallbladder · lymphoma · bladder · kidney · pancreas · gastric · esophageal · nasopharyngeal
 
 ---
 
-## ⚠️ Limitations
+## Coverage Matrix
 
-- **Abstract-only extraction:** Numeric metrics (AUC, sensitivity, specificity) extracted from abstracts only; ~75% of values are in full text and marked `null`.
-- **Rule-based pipeline:** Filer, extraction, and scoring use regex/rule-based logic, not LLM. Manual review of core library papers is recommended before citation.
-- **Category assignment:** Based on abstract signals; papers with ambiguous modality descriptions may be miscategorized.
-- **No full-text access:** Study design, cohort size, and validation type may be underreported.
+| Cancer | LDCT_trad | LDCT_LLM | cfDNA_trad | cfDNA_LDCT_trad | cfDNA_LDCT_LLM | Total |
+|--------|:---------:|:--------:|:----------:|:---------------:|:--------------:|------:|
+| lung | 107 | 8 | 52 | 27 | — | **194** |
+| breast | — | 3 | 25 | 1 | — | **29** |
+| colorectal | — | — | 27 | 1 | — | **28** |
+| liver | — | 3 | 25 | 1 | — | **29** |
+| prostate | — | — | 18 | — | — | **18** |
+| cervical | — | 1 | 15 | — | — | **16** |
+| ovarian | — | — | 16 | 1 | — | **17** |
+| endometrial | — | — | 8 | — | — | **8** |
+| gallbladder | 5 | 1 | 12 | 2 | — | **20** |
+| lymphoma | — | — | 6 | 3 | — | **9** |
+| bladder | — | — | 10 | — | — | **10** |
+| kidney | — | — | 11 | 1 | — | **12** |
+| pancreas | 7 | 2 | 21 | 4 | — | **34** |
+| gastric | — | 1 | 14 | 1 | — | **16** |
+| esophageal | — | — | 13 | — | — | **13** |
+| nasopharyngeal | — | — | 2 | — | — | **2** |
+| **TOTAL** | **119** | **19** | **275** | **42** | **0** | **455** |
+
+> **—** = no papers (structural gap due to modality mismatch, or genuine research gap)
 
 ---
 
-*Generated by Biomni automated literature pipeline · 2026-04-15*
+## Paper JSON Schema
+
+Each paper is stored as an individual JSON file with the following fields:
+
+```json
+{
+  "paper_id": "lung_cfDNA_traditional_001",
+  "pmid": "12345678",
+  "title": "...",
+  "year": 2023,
+  "journal": "Nature Communications",
+  "doi": "10.1038/...",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 1200,
+  "input_modalities": ["cfDNA_methylation", "clinical_features"],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.921,
+    "sensitivity": 0.847,
+    "specificity": 0.912,
+    "early_stage_sensitivity": 0.803
+  },
+  "has_stage_info": true,
+  "validation_type": "external_validation",
+  "notes": "...",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 14.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}
+```
+
+See `schema.json` for the full JSON Schema definition.
+
+---
+
+## Quality Flags
+
+| Flag | Description |
+|------|-------------|
+| `tier: core` | Journal IF > 10 |
+| `tier: extended` | Journal IF 5–10 |
+| `tier: low_if` | Journal IF < 5 |
+| `tier: unknown` | Journal IF not in lookup table |
+| `screening_relevant` | Abstract mentions screening / early detection / risk prediction |
+| `has_external_validation` | Independent validation cohort reported |
+| `case_control_design` | Case-control study design (potential ascertainment bias) |
+
+---
+
+## Inclusion Criteria
+
+- Original research articles (reviews and meta-analyses excluded)
+- Reports ≥ 1 quantitative performance metric (AUC, sensitivity, or specificity)
+- AUC ≥ 0.50 (implausible values excluded)
+- Publication year 2018–2026
+- Topic: AI-assisted early detection / screening / diagnosis (treatment response, prognosis, staging excluded)
+
+---
+
+## Key Findings
+
+- **cfDNA dominates** non-lung cancers (275/455 papers, 60.4%) — liquid biopsy is the primary modality for most cancer types
+- **LDCT is lung-centric** (107/119 LDCT_traditional papers are lung) — other cancers rarely use LDCT for screening
+- **Foundation models are nascent** (19 LDCT_LLM papers total; 0 cfDNA_LDCT_LLM papers) — a clear research frontier
+- **Mean AUC = 0.880** across 300 papers with reported AUC; 66% achieve AUC ≥ 0.90
+- **External validation is rare** — only a minority of papers report independent cohort validation
+- **cfDNA_LDCT_LLM = 0** — no published work yet combines multimodal cfDNA+CT with foundation models for early detection
+
+---
+
+## Limitations
+
+1. Year unknown for 188 papers (41%) from the original lung library
+2. AUC values extracted automatically via regex — may contain parsing errors; AUC=1.0 papers (n=15) are flagged
+3. Category assignment is heuristic (keyword-based); some multimodal papers may be miscategorised
+4. Search limited to PubMed; arXiv/medRxiv preprints not included
+5. Journal IF values from a static lookup table (2023); 29% of papers have unknown IF
+
+---
+
+## Citation
+
+If you use this database, please cite the associated survey paper (forthcoming).

@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_049",
+  "pmid": "38159298",
+  "title": "Pulmonary circulatory system characteristics are associated with future lung cancer risk.",
+  "year": null,
+  "journal": "Medical physics",
+  "doi": "10.1002/mp.16930",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.74,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.2,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

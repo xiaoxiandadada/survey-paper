@@ -1,0 +1,37 @@
+{
+  "paper_id": "breast_cfDNA_traditional_004",
+  "pmid": "41354060",
+  "title": "A Plasma-based Deep Proteomic Platform for early-stage Breast Cancer Detection.",
+  "year": 2025,
+  "journal": "Endocrinology",
+  "doi": "10.1210/endocr/bqaf180",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 116,
+  "input_modalities": [
+    "CT",
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.96,
+    "sensitivity": 0.862,
+    "specificity": 0.904,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "internal_CV",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "ovarian_cfDNA_traditional_016",
+  "pmid": "30760538",
+  "title": "Microvesicle Proteomic Profiling of Uterine Liquid Biopsy for Ovarian Cancer Early Detection.",
+  "year": 2019,
+  "journal": "Molecular & cellular proteomics : MCP",
+  "doi": "10.1074/mcp.RA119.001362",
+  "cancer_type": "ovarian",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 49,
+  "input_modalities": [
+    "CT",
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "SVM",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.762,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: ovarian / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 45.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

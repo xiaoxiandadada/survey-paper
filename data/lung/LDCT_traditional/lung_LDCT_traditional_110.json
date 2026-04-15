@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_089",
+  "pmid": "31307017",
+  "title": "Predicting lung nodule malignancies by combining deep convolutional neural network and handcrafted features.",
+  "year": null,
+  "journal": "Physics in medicine and biology",
+  "doi": "10.1088/1361-6560/ab326a",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.03,
+    "specificity": 0.03,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

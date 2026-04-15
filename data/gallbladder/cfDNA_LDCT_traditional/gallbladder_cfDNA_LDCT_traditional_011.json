@@ -1,0 +1,36 @@
+{
+  "paper_id": "gallbladder_cfDNA_LDCT_traditional_002",
+  "pmid": "34285068",
+  "title": "Next-generation sequencing of bile cell-free DNA for the early detection of patients with malignant biliary strictures.",
+  "year": 2021,
+  "journal": "Gut",
+  "doi": "10.1136/gutjnl-2021-325178",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 68,
+  "input_modalities": [
+    "cfDNA",
+    "LDCT"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.6,
+    "specificity": 0.6,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 24.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

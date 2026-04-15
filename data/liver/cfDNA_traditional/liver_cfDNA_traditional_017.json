@@ -1,0 +1,36 @@
+{
+  "paper_id": "liver_cfDNA_traditional_014",
+  "pmid": "39511689",
+  "title": "Cross-sectional study on the diagnostic significance of plasma exosomal miRNAs in HBV-related hepatocellular carcinoma.",
+  "year": 2024,
+  "journal": "Journal of translational medicine",
+  "doi": "10.1186/s12967-024-05787-3",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 108,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.8634,
+    "sensitivity": 0.89,
+    "specificity": 0.9468,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

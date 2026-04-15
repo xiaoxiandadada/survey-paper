@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_013",
+  "pmid": "36174098",
+  "title": "Development of deep learning-assisted overscan decision algorithm in low-dose chest CT: Application to lung cancer screening in Korean National CT accreditation program.",
+  "year": null,
+  "journal": "PloS one",
+  "doi": "10.1371/journal.pone.0275531",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 210,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.976,
+    "sensitivity": 0.976,
+    "specificity": 0.976,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_001",
+  "pmid": "36849097",
+  "title": "Unintrusive multi-cancer detection by circulating cell-free DNA methylation sequencing (THUNDER): development and independent validation studies.",
+  "year": null,
+  "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+  "doi": "10.1016/j.annonc.2023.02.010",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 249,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.691,
+    "specificity": 0.989,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 51.8,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

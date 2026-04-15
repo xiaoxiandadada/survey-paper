@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_005",
+  "pmid": "39009999",
+  "title": "TOTEM: a multi-cancer detection and localization approach using circulating tumor DNA methylation markers.",
+  "year": null,
+  "journal": "BMC cancer",
+  "doi": "10.1186/s12885-024-12626-7",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 148,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "ctDNA"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.865,
+    "sensitivity": null,
+    "specificity": 0.98,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.4,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

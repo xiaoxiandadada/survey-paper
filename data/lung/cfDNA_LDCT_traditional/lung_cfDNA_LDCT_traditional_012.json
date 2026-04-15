@@ -1,0 +1,39 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_012",
+  "pmid": "41077273",
+  "title": "Pulmonary nodules: A study on combined diagnostic methods and therapeutic evaluation.",
+  "year": null,
+  "journal": "Clinica chimica acta; international journal of clinical chemistry",
+  "doi": "10.1016/j.cca.2025.120647",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 141,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "LDCT",
+    "CT",
+    "blood_protein",
+    "imaging"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.7743,
+    "sensitivity": 0.78,
+    "specificity": 0.768,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_002",
+  "pmid": "41939911",
+  "title": "Pancreatic cancer immunotherapy biomarkers: from traditional markers to multimodal integration and dynamic monitoring.",
+  "year": 2026,
+  "journal": "Frontiers in immunology",
+  "doi": "10.3389/fimmu.2026.1686658",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.08,
+    "specificity": 0.08,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 7.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

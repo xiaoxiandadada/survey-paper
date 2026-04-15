@@ -1,0 +1,35 @@
+{
+  "paper_id": "gastric_cfDNA_traditional_008",
+  "pmid": "40071449",
+  "title": "Efficient Metabolomics Profiling from Plasma Extracellular Vesicles Enables Accurate Diagnosis of Early Gastric Cancer.",
+  "year": 2025,
+  "journal": "Journal of the American Chemical Society",
+  "doi": "10.1021/jacs.4c18110",
+  "cancer_type": "gastric",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: gastric / cfDNA_traditional. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

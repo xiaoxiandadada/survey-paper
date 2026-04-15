@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_LDCT_traditional_020",
+  "pmid": "38752718",
+  "title": "Leveraging Serial Low-Dose CT Scans in Radiomics-based Reinforcement Learning to Improve Early Diagnosis of Lung Cancer at Baseline Screening.",
+  "year": null,
+  "journal": "Radiology. Cardiothoracic imaging",
+  "doi": "10.1148/ryct.230196",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 1951,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.88,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

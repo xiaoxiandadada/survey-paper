@@ -1,0 +1,37 @@
+{
+  "paper_id": "bladder_cfDNA_traditional_002",
+  "pmid": "40484005",
+  "title": "The Predictive Value of Urinary Twist1 Methylation and VI-RADS Score for Residual Tumor before Repeat Transurethral Resection of Bladder Tumor in NMIBC Patients.",
+  "year": 2025,
+  "journal": "Urologia internationalis",
+  "doi": "10.1159/000546718",
+  "cancer_type": "bladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 22,
+  "input_modalities": [
+    "CT",
+    "imaging",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.95,
+    "sensitivity": 0.9545,
+    "specificity": 0.8333,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: bladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

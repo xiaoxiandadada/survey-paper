@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_028",
+  "pmid": "39184040",
+  "title": "Construction of a risk prediction model for lung infection after chemotherapy in lung cancer patients based on the machine learning algorithm.",
+  "year": null,
+  "journal": "Frontiers in oncology",
+  "doi": "10.3389/fonc.2024.1403392",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "clinical_features"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.888,
+    "sensitivity": 0.811,
+    "specificity": 0.825,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

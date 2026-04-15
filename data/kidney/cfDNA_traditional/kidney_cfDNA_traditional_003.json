@@ -1,0 +1,35 @@
+{
+  "paper_id": "kidney_cfDNA_traditional_003",
+  "pmid": "36232491",
+  "title": "Identification of a Novel Renal Metastasis Associated CpG-Based DNA Methylation Signature (RMAMS).",
+  "year": 2022,
+  "journal": "International journal of molecular sciences",
+  "doi": "10.3390/ijms231911190",
+  "cancer_type": "kidney",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": 16,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: kidney / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

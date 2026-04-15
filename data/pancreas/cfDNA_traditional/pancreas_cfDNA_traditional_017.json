@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_016",
+  "pmid": "37387788",
+  "title": "A panel of seven protein tumour markers for effective and affordable multi-cancer early detection by artificial intelligence: a large-scale and multicentre case-control study.",
+  "year": 2023,
+  "journal": "EClinicalMedicine",
+  "doi": "10.1016/j.eclinm.2023.102041",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 7565,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.517,
+    "specificity": 0.569,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

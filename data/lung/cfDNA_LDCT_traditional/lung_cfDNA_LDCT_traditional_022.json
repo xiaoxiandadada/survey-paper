@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_022",
+  "pmid": "38926407",
+  "title": "Deep learning model integrating cfDNA methylation and fragment size profiles for lung cancer diagnosis.",
+  "year": null,
+  "journal": "Scientific reports",
+  "doi": "10.1038/s41598-024-63411-2",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.87,
+    "sensitivity": 0.815,
+    "specificity": 0.1,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

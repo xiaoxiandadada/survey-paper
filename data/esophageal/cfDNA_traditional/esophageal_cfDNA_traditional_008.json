@@ -1,0 +1,36 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_008",
+  "pmid": "39562048",
+  "title": "Liquid biopsy to identify Barrett's oesophagus, dysplasia and oesophageal adenocarcinoma: the EMERALD multicentre study.",
+  "year": 2024,
+  "journal": "Gut",
+  "doi": "10.1136/gutjnl-2024-333364",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 134,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "XGBoost",
+  "performance_raw": {
+    "auc": 0.976,
+    "sensitivity": 0.928,
+    "specificity": 0.851,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 24.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_039",
+  "pmid": "33658025",
+  "title": "Automated detection of lung nodules and coronary artery calcium using artificial intelligence on low-dose CT scans for lung cancer screening: accuracy and prognostic value.",
+  "year": null,
+  "journal": "BMC medicine",
+  "doi": "10.1186/s12916-021-01928-3",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 117,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "imaging"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.708,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

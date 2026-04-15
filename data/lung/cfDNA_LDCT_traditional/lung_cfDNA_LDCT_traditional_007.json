@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_007",
+  "pmid": "41165038",
+  "title": "The INSPECTOR study: enhanced feasibility for clinical translation of a multi-cancer early detection method based on enzyme-assisted high signal-to-noise ratio sequencing of methylated circulating tumor DNA.",
+  "year": null,
+  "journal": "Cancer communications (London, England)",
+  "doi": "10.1002/cac2.70071",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 6342,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.832,
+    "specificity": 0.991,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 6.8,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

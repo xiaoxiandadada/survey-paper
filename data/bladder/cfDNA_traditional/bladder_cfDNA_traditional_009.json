@@ -1,0 +1,35 @@
+{
+  "paper_id": "bladder_cfDNA_traditional_008",
+  "pmid": "30309818",
+  "title": "HOXA9, PCDH17, POU4F2, and ONECUT2 as a Urinary Biomarker Combination for the Detection of Bladder Cancer in Chinese Patients with Hematuria.",
+  "year": 2018,
+  "journal": "European urology focus",
+  "doi": "10.1016/j.euf.2018.09.016",
+  "cancer_type": "bladder",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "mixed",
+  "sample_size": 192,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.871,
+    "sensitivity": 0.905,
+    "specificity": 0.732,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: bladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": true,
+    "impact_factor": 25.3,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_012",
+  "pmid": "40029142",
+  "title": "Mutational Analysis of Bile Cell-Free DNA in Primary Sclerosing Cholangitis: A Pilot Study.",
+  "year": 2025,
+  "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+  "doi": "10.1111/liv.70049",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.1,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 7.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

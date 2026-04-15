@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_LDCT_LLM_002",
+  "pmid": "41282750",
+  "title": "PANCDetect: Early Detection of Pancreatic Cancer from Multimodal EHR data with LLM Embeddings.",
+  "year": 2025,
+  "journal": "medRxiv : the preprint server for health sciences",
+  "doi": "10.1101/2025.10.03.25337210",
+  "cancer_type": "pancreas",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.812,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Supplemental search: pancreas / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

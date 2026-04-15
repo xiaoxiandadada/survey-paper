@@ -1,0 +1,35 @@
+{
+  "paper_id": "bladder_cfDNA_traditional_010",
+  "pmid": "29540343",
+  "title": "Genome-Wide DNA Methylation in Prediagnostic Blood and Bladder Cancer Risk in the Women's Health Initiative.",
+  "year": 2018,
+  "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+  "doi": "10.1158/1055-9965.EPI-17-0951",
+  "cancer_type": "bladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.04,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: bladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 6.8,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

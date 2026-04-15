@@ -1,0 +1,37 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_010",
+  "pmid": "38750539",
+  "title": "Detection and characterization of pancreatic and biliary tract cancers using cell-free DNA fragmentomics.",
+  "year": 2024,
+  "journal": "Journal of experimental & clinical cancer research : CR",
+  "doi": "10.1186/s13046-024-03067-y",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 55,
+  "input_modalities": [
+    "CT",
+    "cfDNA",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.978,
+    "sensitivity": 0.19,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.4,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_001",
+  "pmid": "41947704",
+  "title": "Digital SERS Nanoprobe Immunoassay With Single-Particle Sensing Resolution for Detection of Pancreatic Cancer Biomarkers From Clinical Blood Samples.",
+  "year": 2026,
+  "journal": "Small methods",
+  "doi": "10.1002/smtd.202600005",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.988,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

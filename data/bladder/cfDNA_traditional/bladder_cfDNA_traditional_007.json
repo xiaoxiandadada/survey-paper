@@ -1,0 +1,36 @@
+{
+  "paper_id": "bladder_cfDNA_traditional_006",
+  "pmid": "32081560",
+  "title": "A noninvasive urine-based methylation biomarker panel to detect bladder cancer and discriminate cancer grade.",
+  "year": 2020,
+  "journal": "Urologic oncology",
+  "doi": "10.1016/j.urolonc.2020.01.007",
+  "cancer_type": "bladder",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 313,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.89,
+    "sensitivity": 0.02,
+    "specificity": 0.833,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: bladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_017",
+  "pmid": "36701900",
+  "title": "OWL: an optimized and independently validated machine learning prediction model for lung cancer screening based on the UK Biobank, PLCO, and NLST populations.",
+  "year": null,
+  "journal": "EBioMedicine",
+  "doi": "10.1016/j.ebiom.2023.104443",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 323344,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.855,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

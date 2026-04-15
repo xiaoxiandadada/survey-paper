@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_LDCT_traditional_002",
+  "pmid": "41674948",
+  "title": "Development and validation of a clinical-radiomics nomogram for the differential diagnosis of focal pancreatic solid lesions: a retrospective cohort study.",
+  "year": 2026,
+  "journal": "Translational cancer research",
+  "doi": "10.21037/tcr-2025-2017",
+  "cancer_type": "pancreas",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.95,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

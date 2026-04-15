@@ -1,0 +1,36 @@
+{
+  "paper_id": "lymphoma_cfDNA_traditional_003",
+  "pmid": "38324993",
+  "title": "Clinical validation of a blood-based liquid biopsy test integrating cell-free DNA quantification and next-generation sequencing for cancer screening in dogs.",
+  "year": 2024,
+  "journal": "Journal of the American Veterinary Medical Association",
+  "doi": "10.2460/javma.23.10.0564",
+  "cancer_type": "lymphoma",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 530,
+  "input_modalities": [
+    "CT",
+    "cfDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.713,
+    "specificity": 0.987,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: lymphoma / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

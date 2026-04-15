@@ -1,0 +1,36 @@
+{
+  "paper_id": "breast_cfDNA_traditional_023",
+  "pmid": "35512281",
+  "title": "Fluorescence Analysis of Circulating Exosomes for Breast Cancer Diagnosis Using a Sensor Array and Deep Learning.",
+  "year": 2022,
+  "journal": "ACS sensors",
+  "doi": "10.1021/acssensors.2c00259",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.12,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

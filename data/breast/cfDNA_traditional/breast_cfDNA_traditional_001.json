@@ -1,0 +1,37 @@
+{
+  "paper_id": "breast_cfDNA_traditional_001",
+  "pmid": "41792156",
+  "title": "Fragmentomic liquid biopsy enables early breast cancer detection, molecular subtyping and lymph node assessment.",
+  "year": 2026,
+  "journal": "Nature communications",
+  "doi": "10.1038/s41467-026-70204-w",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 79,
+  "input_modalities": [
+    "CT",
+    "cfDNA",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.783,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": true,
+    "impact_factor": 14.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_003",
+  "pmid": "41591979",
+  "title": "Epigenetic Instability Based Metrics in Cell-Free DNA for Early Cancer Detection.",
+  "year": null,
+  "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+  "doi": "10.1158/1078-0432.CCR-25-3384",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 2084,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.68,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

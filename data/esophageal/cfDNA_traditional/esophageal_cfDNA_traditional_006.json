@@ -1,0 +1,37 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_006",
+  "pmid": "41006474",
+  "title": "Improved circulating tumor DNA identification for detection of esophageal squamous cell carcinoma by enzymatic methyl sequencing and hybrid neural network.",
+  "year": 2025,
+  "journal": "Scientific reports",
+  "doi": "10.1038/s41598-025-18278-2",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation",
+    "ctDNA"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.97,
+    "sensitivity": null,
+    "specificity": 0.9375,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

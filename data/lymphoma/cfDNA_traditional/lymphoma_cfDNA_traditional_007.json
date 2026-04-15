@@ -1,0 +1,36 @@
+{
+  "paper_id": "lymphoma_cfDNA_traditional_006",
+  "pmid": "33506766",
+  "title": "Sensitive and specific multi-cancer detection and localization using methylation signatures in cell-free DNA.",
+  "year": 2021,
+  "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+  "doi": "10.1016/j.annonc.2020.02.011",
+  "cancer_type": "lymphoma",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "mixed",
+  "sample_size": 6689,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.673,
+    "specificity": null,
+    "early_stage_sensitivity": 0.673
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "Supplemental search: lymphoma / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 51.8,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_103",
+  "pmid": "40600041",
+  "title": "A blood test-based machine learning model for predicting lung cancer risk.",
+  "year": null,
+  "journal": "Frontiers in medicine",
+  "doi": "10.3389/fmed.2025.1577451",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "clinical_features"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.63,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

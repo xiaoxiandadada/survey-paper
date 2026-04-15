@@ -1,0 +1,36 @@
+{
+  "paper_id": "ovarian_cfDNA_traditional_002",
+  "pmid": "40803203",
+  "title": "Tumour extracellular vesicle surface Protein-mRNA integration assay for early detection of epithelial ovarian cancer.",
+  "year": 2025,
+  "journal": "EBioMedicine",
+  "doi": "10.1016/j.ebiom.2025.105884",
+  "cancer_type": "ovarian",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "clinical",
+  "sample_size": 118,
+  "input_modalities": [
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.99,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: ovarian / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": true,
+    "impact_factor": 11.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

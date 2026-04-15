@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_001",
+  "pmid": "35311112",
+  "title": "A Classifier for Improving Early Lung Cancer Diagnosis Incorporating Artificial Intelligence and Liquid Biopsy.",
+  "year": null,
+  "journal": "Frontiers in oncology",
+  "doi": "10.3389/fonc.2022.853801",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 560,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.895,
+    "sensitivity": 0.8953,
+    "specificity": 0.8131,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_104",
+  "pmid": "32831492",
+  "title": "Appraisal of Deep-Learning Techniques on Computer-Aided Lung Cancer Diagnosis with Computed Tomography Screening.",
+  "year": null,
+  "journal": "Journal of medical physics",
+  "doi": "10.4103/jmp.JMP_101_19",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.89,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.2,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

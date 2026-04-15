@@ -1,0 +1,35 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_013",
+  "pmid": "34641873",
+  "title": "Discovery and validation of methylation signatures in circulating cell-free DNA for early detection of esophageal cancer: a case-control study.",
+  "year": 2021,
+  "journal": "BMC medicine",
+  "doi": "10.1186/s12916-021-02109-y",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "RCT",
+  "cohort_type": "clinical",
+  "sample_size": 24,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.762,
+    "specificity": 0.941,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

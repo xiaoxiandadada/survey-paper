@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_003",
+  "pmid": "40478347",
+  "title": "Beyond nodules: body composition as a biomarker for future lung cancer.",
+  "year": null,
+  "journal": "European radiology",
+  "doi": "10.1007/s00330-025-11735-6",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 3635,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "Cox",
+  "performance_raw": {
+    "auc": 0.77,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

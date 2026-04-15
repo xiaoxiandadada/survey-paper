@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_063",
+  "pmid": "40640822",
+  "title": "Non-invasive identification of TKI-resistant NSCLC: a multi-model AI approach for predicting EGFR/TP53 co-mutations.",
+  "year": null,
+  "journal": "BMC pulmonary medicine",
+  "doi": "10.1186/s12890-025-03805-8",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": 2171,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": 0.843,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

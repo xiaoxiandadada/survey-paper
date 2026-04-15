@@ -1,0 +1,35 @@
+{
+  "paper_id": "gallbladder_LDCT_LLM_001",
+  "pmid": "40678070",
+  "title": "Performance of large language models in the differential diagnosis of benign and malignant biliary stricture.",
+  "year": 2025,
+  "journal": "Frontiers in oncology",
+  "doi": "10.3389/fonc.2025.1613818",
+  "cancer_type": "gallbladder",
+  "category": "LDCT_LLM",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 29,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.83,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Supplemental search: gallbladder / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 4.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

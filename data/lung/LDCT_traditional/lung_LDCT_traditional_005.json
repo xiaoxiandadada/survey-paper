@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_005",
+  "pmid": "40956165",
+  "title": "External Test of a Deep Learning Algorithm for Pulmonary Nodule Malignancy Risk Stratification Using European Screening Data.",
+  "year": null,
+  "journal": "Radiology",
+  "doi": "10.1148/radiol.250874",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 4146,
+  "input_modalities": [
+    "LDCT",
+    "clinical_features"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 12.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

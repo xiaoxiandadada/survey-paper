@@ -1,0 +1,35 @@
+{
+  "paper_id": "prostate_cfDNA_traditional_012",
+  "pmid": "33256740",
+  "title": "Development and validation of a 25-Gene Panel urine test for prostate cancer diagnosis and potential treatment follow-up.",
+  "year": 2020,
+  "journal": "BMC medicine",
+  "doi": "10.1186/s12916-020-01834-0",
+  "cancer_type": "prostate",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 614,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.946,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: prostate / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

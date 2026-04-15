@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_LDCT_traditional_054",
+  "pmid": "36681813",
+  "title": "Detection of early-stage lung cancer in sputum using automated flow cytometry and machine learning.",
+  "year": null,
+  "journal": "Respiratory research",
+  "doi": "10.1186/s12931-023-02327-3",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 150,
+  "input_modalities": [
+    "LDCT",
+    "CT"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": 0.94,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

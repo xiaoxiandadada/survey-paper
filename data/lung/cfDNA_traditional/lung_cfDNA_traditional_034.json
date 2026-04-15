@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_034",
+  "pmid": "39799530",
+  "title": "Transforming cancer screening: the potential of multi-cancer early detection (MCED) technologies.",
+  "year": null,
+  "journal": "International journal of clinical oncology",
+  "doi": "10.1007/s10147-025-02694-5",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "other"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.89,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 42.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

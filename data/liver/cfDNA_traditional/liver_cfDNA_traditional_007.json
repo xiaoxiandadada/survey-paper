@@ -1,0 +1,37 @@
+{
+  "paper_id": "liver_cfDNA_traditional_005",
+  "pmid": "41327249",
+  "title": "3D dynamic magnetic microfluidic chip for efficient plasma extracellular vesicle enrichment and machine learning-based multiparametric diagnosis of hepatocellular carcinoma.",
+  "year": 2025,
+  "journal": "Journal of nanobiotechnology",
+  "doi": "10.1186/s12951-025-03839-4",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "clinical_features",
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.8,
+    "sensitivity": 0.03,
+    "specificity": 0.03,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 10.6,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

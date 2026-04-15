@@ -1,0 +1,36 @@
+{
+  "paper_id": "cervical_cfDNA_traditional_015",
+  "pmid": "29632006",
+  "title": "Identification and Validation of a 3-Gene Methylation Classifier for HPV-Based Cervical Screening on Self-Samples.",
+  "year": 2018,
+  "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+  "doi": "10.1158/1078-0432.CCR-17-3615",
+  "cancer_type": "cervical",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 245,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.88,
+    "sensitivity": 0.74,
+    "specificity": 0.79,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: cervical / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

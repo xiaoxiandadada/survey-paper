@@ -1,0 +1,37 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_007",
+  "pmid": "40348906",
+  "title": "Emerging biomarkers for pancreatic cancer: from early detection to personalized therapy.",
+  "year": 2025,
+  "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+  "doi": "10.1007/s12094-025-03947-5",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation",
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.0,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

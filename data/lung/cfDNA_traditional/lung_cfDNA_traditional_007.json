@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_007",
+  "pmid": "34251068",
+  "title": "Prediction model for malignant pulmonary nodules based on cfMeDIP-seq and machine learning.",
+  "year": null,
+  "journal": "Cancer science",
+  "doi": "10.1111/cas.15052",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "random_forest",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.91,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.9,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

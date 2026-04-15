@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_024",
+  "pmid": "32739872",
+  "title": "Development and validation of a novel scoring system developed from a nomogram to identify malignant pleural effusion.",
+  "year": null,
+  "journal": "EBioMedicine",
+  "doi": "10.1016/j.ebiom.2020.102924",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 1261,
+  "input_modalities": [
+    "blood_protein"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.913,
+    "sensitivity": 0.913,
+    "specificity": 0.913,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

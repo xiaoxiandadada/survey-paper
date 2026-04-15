@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_011",
+  "pmid": "41737326",
+  "title": "Exploration of multi-omics liquid biopsy approaches for multi-cancer early detection: The PROMISE study.",
+  "year": null,
+  "journal": "Innovation (Cambridge (Mass.))",
+  "doi": "10.1016/j.xinn.2025.101076",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "mixed",
+  "sample_size": 1706,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.751,
+    "specificity": 0.988,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

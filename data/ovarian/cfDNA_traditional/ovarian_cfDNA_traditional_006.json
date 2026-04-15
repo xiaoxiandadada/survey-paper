@@ -1,0 +1,37 @@
+{
+  "paper_id": "ovarian_cfDNA_traditional_006",
+  "pmid": "39083293",
+  "title": "Single-molecule epiallelic profiling of DNA derived from routinely collected Pap specimens for noninvasive detection of ovarian cancer.",
+  "year": 2024,
+  "journal": "Clinical and translational medicine",
+  "doi": "10.1002/ctm2.1778",
+  "cancer_type": "ovarian",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 18,
+  "input_modalities": [
+    "CT",
+    "blood_protein",
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.9,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: ovarian / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 10.6,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

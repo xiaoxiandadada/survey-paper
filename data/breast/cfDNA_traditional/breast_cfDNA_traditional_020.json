@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_cfDNA_traditional_019",
+  "pmid": "36646366",
+  "title": "Application of serum SERS technology based on thermally annealed silver nanoparticle composite substrate in breast cancer.",
+  "year": 2023,
+  "journal": "Photodiagnosis and photodynamic therapy",
+  "doi": "10.1016/j.pdpdt.2023.103284",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "SVM",
+  "performance_raw": {
+    "auc": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional. [Note: AUC=1.0 reported — may reflect small validation set or overfitting; interpret with caution]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

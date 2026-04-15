@@ -1,0 +1,37 @@
+{
+  "paper_id": "colorectal_cfDNA_traditional_011",
+  "pmid": "40099973",
+  "title": "A Blood-Based Assay for Detection of Patients with Advanced Adenomas.",
+  "year": 2025,
+  "journal": "Cancer research communications",
+  "doi": "10.1158/2767-9764.CRC-24-0398",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA",
+    "blood_protein"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": null,
+    "specificity": 0.4,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 11.2,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

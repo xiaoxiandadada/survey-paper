@@ -1,0 +1,36 @@
+{
+  "paper_id": "colorectal_cfDNA_LDCT_traditional_001",
+  "pmid": "33036678",
+  "title": "Can Next-generation Sequencing Replace Fecal Immunochemical Tests or CT in the Screening of Colorectal Cancer and Advanced Adenoma?",
+  "year": 2020,
+  "journal": "Journal of the College of Physicians and Surgeons--Pakistan : JCPSP",
+  "doi": "10.29271/jcpsp.2020.09.940",
+  "cancer_type": "colorectal",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.571,
+    "specificity": 0.982,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: colorectal / cfDNA_LDCT_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

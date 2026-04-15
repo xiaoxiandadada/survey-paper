@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_LDCT_traditional_021",
+  "pmid": "41194150",
+  "title": "The role of dynamic monitoring of plasma cell-free DNA methylation in predicting pathological response in resectable stage IIB-IIIB non-small cell lung cancer: biomarker analyses from a prospective phase II trial.",
+  "year": null,
+  "journal": "BMC medicine",
+  "doi": "10.1186/s12916-025-04419-x",
+  "cancer_type": "lung",
+  "category": "cfDNA_LDCT_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "mixed",
+  "sample_size": 100,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "cfDNA_fragmentomics"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": 0.86,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

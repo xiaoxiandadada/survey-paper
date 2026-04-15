@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_015",
+  "pmid": "38410586",
+  "title": "Cell-free DNA methylation profile potential in the diagnosis of lung squamous cell carcinoma.",
+  "year": null,
+  "journal": "Journal of thoracic disease",
+  "doi": "10.21037/jtd-23-1827",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": 49,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 3.1,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "low_if"
+  }
+}

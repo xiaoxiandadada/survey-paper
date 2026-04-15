@@ -1,0 +1,35 @@
+{
+  "paper_id": "breast_cfDNA_traditional_016",
+  "pmid": "38723244",
+  "title": "IL21R hypomethylation as a biomarker for distinguishing benign and malignant breast tumours.",
+  "year": 2024,
+  "journal": "Epigenetics",
+  "doi": "10.1080/15592294.2024.2352683",
+  "cancer_type": "breast",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": null,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.88,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: breast / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 5.7,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

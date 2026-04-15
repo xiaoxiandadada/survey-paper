@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_004",
+  "pmid": "41833807",
+  "title": "Integrating deep learning of low-dose computed tomography with clinical data for lung cancer risk prediction.",
+  "year": null,
+  "journal": "Chest",
+  "doi": "10.1016/j.chest.2026.02.022",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "retrospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": 22469,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "deep_learning",
+  "performance_raw": {
+    "auc": 0.64,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 9.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

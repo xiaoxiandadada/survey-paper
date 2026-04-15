@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_097",
+  "pmid": "29454784",
+  "title": "Coronary Artery Calcium Scores and Atherosclerotic Cardiovascular Disease Risk Stratification in Smokers.",
+  "year": null,
+  "journal": "JACC. Cardiovascular imaging",
+  "doi": "10.1016/j.jcmg.2017.12.017",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "Cox",
+  "performance_raw": {
+    "auc": 0.621,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 12.0,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

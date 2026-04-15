@@ -1,0 +1,36 @@
+{
+  "paper_id": "lung_cfDNA_traditional_031",
+  "pmid": "37330511",
+  "title": "Early detection and stratification of lung cancer aided by a cost-effective assay targeting circulating tumor DNA (ctDNA) methylation.",
+  "year": null,
+  "journal": "Respiratory research",
+  "doi": "10.1186/s12931-023-02449-8",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "screening",
+  "sample_size": 58,
+  "input_modalities": [
+    "blood_protein",
+    "ctDNA"
+  ],
+  "model_type": "ensemble",
+  "performance_raw": {
+    "auc": 0.85,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": true,
+    "impact_factor": 5.6,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

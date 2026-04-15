@@ -1,0 +1,35 @@
+{
+  "paper_id": "pancreas_LDCT_LLM_001",
+  "pmid": "41688460",
+  "title": "PanMETAI - a high performance tabular foundation model for accurate pancreatic cancer diagnosis via NMR metabolomics.",
+  "year": 2026,
+  "journal": "Nature communications",
+  "doi": "10.1038/s41467-026-69426-9",
+  "cancer_type": "pancreas",
+  "category": "LDCT_LLM",
+  "study_design": "other",
+  "cohort_type": "clinical",
+  "sample_size": 322,
+  "input_modalities": [
+    "LDCT"
+  ],
+  "model_type": "foundation_model",
+  "performance_raw": {
+    "auc": 0.99,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "Supplemental search: pancreas / LDCT_LLM.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": false,
+    "impact_factor": 14.7,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

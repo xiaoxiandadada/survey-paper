@@ -1,0 +1,36 @@
+{
+  "paper_id": "gallbladder_cfDNA_traditional_003",
+  "pmid": "41652428",
+  "title": "Circulating tumor DNA-guided early detection and minimal residual disease monitoring in pancreatic and biliary cancers: evidence, barriers, and opportunities.",
+  "year": 2026,
+  "journal": "World journal of surgical oncology",
+  "doi": "10.1186/s12957-026-04238-1",
+  "cancer_type": "gallbladder",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "CT",
+    "ctDNA"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.1012,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Retry search: gallbladder / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}

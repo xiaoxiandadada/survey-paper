@@ -1,0 +1,35 @@
+{
+  "paper_id": "lung_cfDNA_traditional_027",
+  "pmid": "40642085",
+  "title": "The prognostic and clinicopathological value of HALP score in non-small cell lung cancer.",
+  "year": null,
+  "journal": "Frontiers in immunology",
+  "doi": "10.3389/fimmu.2025.1576326",
+  "cancer_type": "lung",
+  "category": "cfDNA_traditional",
+  "study_design": "prospective_cohort",
+  "cohort_type": "clinical",
+  "sample_size": 7024,
+  "input_modalities": [
+    "other"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.1,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library. [Recategorized from LDCT to cfDNA_traditional: no CT modality detected]",
+  "quality_flags": {
+    "screening_relevant": false,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 7.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

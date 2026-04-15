@@ -1,0 +1,37 @@
+{
+  "paper_id": "lung_LDCT_traditional_029",
+  "pmid": "41308576",
+  "title": "Potential for AI as first reader in lung cancer screening.",
+  "year": null,
+  "journal": "European journal of radiology",
+  "doi": "10.1016/j.ejrad.2025.112561",
+  "cancer_type": "lung",
+  "category": "LDCT_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": null,
+  "input_modalities": [
+    "LDCT",
+    "CT",
+    "clinical_features"
+  ],
+  "model_type": "other_ML",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.95,
+    "specificity": 0.95,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "Remapped from original lung library.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 12.1,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

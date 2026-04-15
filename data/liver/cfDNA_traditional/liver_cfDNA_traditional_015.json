@@ -1,0 +1,36 @@
+{
+  "paper_id": "liver_cfDNA_traditional_012",
+  "pmid": "39704909",
+  "title": "Cell-free DNA methylation-based inflammation score as a marker for hepatocellular carcinoma among people living with HIV.",
+  "year": 2024,
+  "journal": "Hepatology international",
+  "doi": "10.1007/s12072-024-10768-1",
+  "cancer_type": "liver",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 249,
+  "input_modalities": [
+    "cfDNA_methylation",
+    "blood_protein"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.94,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "none",
+  "notes": "PubMed search: liver / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": 13.5,
+    "if_above_10": true,
+    "if_unknown": false,
+    "tier": "core"
+  }
+}

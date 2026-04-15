@@ -1,0 +1,35 @@
+{
+  "paper_id": "esophageal_cfDNA_traditional_007",
+  "pmid": "39849483",
+  "title": "Development a glycosylated extracellular vesicle-derived miRNA Signature for early detection of esophageal squamous cell carcinoma.",
+  "year": 2025,
+  "journal": "BMC medicine",
+  "doi": "10.1186/s12916-025-03871-z",
+  "cancer_type": "esophageal",
+  "category": "cfDNA_traditional",
+  "study_design": "case_control",
+  "cohort_type": "mixed",
+  "sample_size": 371,
+  "input_modalities": [
+    "cfDNA_methylation"
+  ],
+  "model_type": "logistic_regression",
+  "performance_raw": {
+    "auc": 0.98,
+    "sensitivity": null,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": false,
+  "validation_type": "external_validation",
+  "notes": "PubMed search: esophageal / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": true,
+    "case_control_design": true,
+    "impact_factor": 9.3,
+    "if_above_10": false,
+    "if_unknown": false,
+    "tier": "extended"
+  }
+}

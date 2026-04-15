@@ -1,0 +1,36 @@
+{
+  "paper_id": "pancreas_cfDNA_traditional_009",
+  "pmid": "39764541",
+  "title": "A noninvasive urinary microRNA-based assay for the detection of pancreatic cancer from early to late stages: a case control study.",
+  "year": 2025,
+  "journal": "EClinicalMedicine",
+  "doi": "10.1016/j.eclinm.2024.102936",
+  "cancer_type": "pancreas",
+  "category": "cfDNA_traditional",
+  "study_design": "other",
+  "cohort_type": "screening",
+  "sample_size": 153,
+  "input_modalities": [
+    "CT",
+    "cfDNA_methylation"
+  ],
+  "model_type": "other",
+  "performance_raw": {
+    "auc": null,
+    "sensitivity": 0.19,
+    "specificity": null,
+    "early_stage_sensitivity": null
+  },
+  "has_stage_info": true,
+  "validation_type": "none",
+  "notes": "Retry search: pancreas / cfDNA_traditional.",
+  "quality_flags": {
+    "screening_relevant": true,
+    "has_external_validation": false,
+    "case_control_design": false,
+    "impact_factor": null,
+    "if_above_10": null,
+    "if_unknown": true,
+    "tier": "unknown"
+  }
+}
