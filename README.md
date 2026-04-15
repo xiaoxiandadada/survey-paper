@@ -1,4 +1,4 @@
-# 📚 Survey Paper — Lung Cancer Screening Literature Support Library
+# 📚 Survey Paper — Cancer Screening Literature Support Library
 
 > **Research Question:** In lung cancer screening, how does LDCT / routine physical exam multimodal / AI model performance compare with cfDNA methylation-based multi-cancer early detection (MCED)?
 
