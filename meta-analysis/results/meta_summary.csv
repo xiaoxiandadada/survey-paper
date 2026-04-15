@@ -1,0 +1,9 @@
+group,group_label,k,pooled_auc,ci_lo_95,ci_hi_95,pi_lo_95,pi_hi_95,I2_pct,tau2,Q,warning,excluded
+RQ1_imaging_only,Imaging only,28,0.8634,0.834,0.8882,0.7041,0.9438,98.8,0.2141,2205.07,,"PMID 40831733 (AUC=0.640), PMID 41833807 (AUC=0.640)"
+RQ1_imaging+clinical,Imaging + Clinical,9,0.8406,0.771,0.892,0.6059,0.9476,99.7,0.2478,2792.88,,"PMID 40831733 (AUC=0.640), PMID 41833807 (AUC=0.640)"
+RQ1_imaging+liquid,Imaging + Liquid biopsy,3,0.9004,0.5648,0.9844,0.1916,0.9971,86.3,0.5128,14.57,k<5,"PMID 40831733 (AUC=0.640), PMID 41833807 (AUC=0.640)"
+RQ2_meth_only,Methylation only,6,0.9297,0.8521,0.9681,0.6599,0.989,85.7,0.453,35.04,,
+RQ2_meth+imaging,Methylation + Imaging,6,0.9182,0.832,0.9622,0.6317,0.9866,92.9,0.433,70.16,,
+RQ2_meth+fragmentomics,Methylation + Fragmentomics,3,0.9051,0.8343,0.9476,0.7774,0.963,41.7,0.0325,3.43,k<5,
+RQ2_meth+ctDNA,Methylation + ctDNA,2,0.9521,0.0,1.0,,,99.6,2.5465,235.73,k=2 (unreliable),
+RQ2_meth+fragmentomics_sensitivity,Methylation + Fragmentomics (excl. PMID 41323119),3,0.9051,0.8343,0.9476,0.7774,0.963,41.7,0.0325,3.43,sensitivity analysis,PMID 41323119 (5-modality study)
