@@ -1,0 +1,7 @@
+pmid,title,pub_year_num,auc_num,sens_num,spec_num,cohort_size_num,validation_type,model_type,input_modalities,design_quality_num,key_limitations
+41323119,Risk-stratified classification of pulmonary nodule malignancy via a machine learning model integrating imaging and cell-free DNA: a model development and validation study (DECIPHER-NODL).,2025,0.95,,,1356.0,external_validation,deep_learning,cfDNA_methylation|LDCT|CT|imaging|cfDNA_fragmentomics,16,
+35600397,Precision Oncology: Artificial Intelligence and DNA Methylation Analysis of Circulating Cell-Free DNA for Lung Cancer Detection.,2022,,,,,none,deep_learning,cfDNA_methylation|ctDNA,4,
+39380154,Transformer-based representation learning and multiple-instance learning for cancer diagnosis exclusively from raw sequencing fragments of bisulfite-treated plasma cell-free DNA.,2024,0.91,,,5389.0,none,deep_learning,cfDNA_methylation|cfDNA_fragmentomics,12,
+38926407,Deep learning model integrating cfDNA methylation and fragment size profiles for lung cancer diagnosis.,2024,,,,142.0,none,deep_learning,cfDNA_methylation|cfDNA_fragmentomics,6,
+37598236,Advances in methylation analysis of liquid biopsy in early cancer detection of colorectal and lung cancer.,2023,0.956,0.781,0.992,191.0,none,deep_learning,cfDNA_methylation,4,
+38961476,Tissue of origin detection for cancer tumor using low-depth cfDNA samples through combination of tumor-specific methylation atlas and genome-wide methylation density in graph convolutional neural networks.,2024,,,,,none,deep_learning,cfDNA_methylation,4,

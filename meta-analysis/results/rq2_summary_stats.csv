@@ -1,0 +1,10 @@
+group,k,auc_pooled,auc_ci_lo,auc_ci_hi,auc_pi_lo,auc_pi_hi,I2,tau2,Q,Q_df,note
+meth_only,7,0.9215,0.8668,0.9549,0.6033,0.9891,92.6,0.5414,80.62,6.0,
+meth+imaging,4,0.9076,0.7943,0.9615,0.1276,0.9985,93.8,0.7293,48.72,3.0,"⚠ k<5, interpret cautiously"
+meth+fragmentomics,5,0.9011,0.8431,0.9392,0.5712,0.9842,94.7,0.2925,76.14,4.0,
+meth+ctDNA,1,0.865,,,,,,,,,Narrative only (k=1); PMID 39009999
+sensitivity__meth+fragmentomics_excl_41323119,4,0.8817,0.8215,0.9235,0.376,0.9893,93.3,0.2812,44.63,3.0,Sensitivity: excludes PMID 41323119 (5-modality study misclassified into meth+fragmentomics)
+validation__external_validation,8,0.9092,0.849,0.9469,0.5904,0.9858,95.6,0.5407,158.52,7.0,
+validation__none,9,0.9073,0.8649,0.9374,0.741,0.971,88.5,0.2235,69.83,8.0,
+setting__clinical_diagnosis,12,0.8962,0.8568,0.9257,0.7427,0.9627,90.3,0.2068,113.77,11.0,
+setting__both,4,0.92,0.828,0.9649,0.1847,0.9983,95.2,0.6355,62.51,3.0,
