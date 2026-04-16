@@ -1,0 +1,3 @@
+category,k,egger_intercept,egger_se,egger_t,egger_p,asymmetry
+LDCT_traditional,68,0.42,1.701,0.247,0.8057,False
+cfDNA_traditional,29,7.904,0.918,8.608,0.0,True

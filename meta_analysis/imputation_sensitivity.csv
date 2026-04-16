@@ -1,0 +1,5 @@
+category,subset,k,pooled_auc,ci_lo,ci_hi,I2,n_imputed,pct_imputed
+LDCT_traditional,All studies (with imputed),68,0.86,0.842,0.877,99.3,27,40
+LDCT_traditional,Non-imputed only,41,0.848,0.823,0.871,99.5,0,0
+cfDNA_traditional,All studies (with imputed),29,0.859,0.799,0.903,98.7,14,48
+cfDNA_traditional,Non-imputed only,15,0.83,0.741,0.893,98.7,0,0

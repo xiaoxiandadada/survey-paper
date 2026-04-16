@@ -1,0 +1,69 @@
+paper_id,title,auc_removed,pooled_auc_loo,ci_lo,ci_hi,delta_auc,abs_delta
+lung_LDCT_traditional_001,A Classifier for Improving Early Lung Cancer Diagnosis Incor,0.895,0.8597,0.8409,0.8766,-0.0006,0.0006
+lung_LDCT_traditional_003,Beyond nodules: body composition as a biomarker for future l,0.77,0.8616,0.8428,0.8785,0.0013,0.0013
+lung_LDCT_traditional_004,Integrating deep learning of low-dose computed tomography wi,0.64,0.861,0.8468,0.8741,0.0007,0.0007
+lung_LDCT_traditional_006,Potential of Inflammatory Protein Signatures for Enhanced Se,0.811,0.8613,0.8419,0.8786,0.0009,0.0009
+lung_LDCT_traditional_007,Deep learning predicts cardiovascular disease risks from lun,0.768,0.8616,0.8429,0.8784,0.0013,0.0013
+lung_LDCT_traditional_008,Cost-effective shallow genome-wide sequencing for profiling ,0.97,0.8571,0.8382,0.8742,-0.0032,0.0032
+lung_LDCT_traditional_009,A multivariate cell-based liquid biopsy for lung nodule risk,0.64,0.8626,0.8442,0.8792,0.0023,0.0023
+lung_LDCT_traditional_010,Deep learning-based lung cancer risk assessment using chest ,0.801,0.8611,0.8424,0.8779,0.0008,0.0008
+lung_LDCT_traditional_012,Body composition as a biomarker for assessing future lung ca,0.76,0.8617,0.8429,0.8785,0.0014,0.0014
+lung_LDCT_traditional_013,Development of deep learning-assisted overscan decision algo,0.976,0.8579,0.839,0.875,-0.0024,0.0024
+lung_LDCT_traditional_014,Non-invasive diagnosis of pulmonary nodules by circulating t,0.815,0.8608,0.8422,0.8776,0.0005,0.0005
+lung_LDCT_traditional_016,Evaluating the clinical trends and benefits of low-dose comp,0.87,0.8602,0.8413,0.8772,-0.0001,0.0001
+lung_LDCT_traditional_017,OWL: an optimized and independently validated machine learni,0.855,0.8609,0.8405,0.8791,0.0006,0.0006
+lung_LDCT_traditional_018,Machine Learning System for Lung Neoplasms Distinguished Bas,0.897,0.8598,0.841,0.8767,-0.0005,0.0005
+lung_LDCT_traditional_019,Benign-malignant classification of pulmonary nodules by low-,0.76,0.8621,0.842,0.88,0.0018,0.0018
+lung_LDCT_traditional_020,Leveraging Serial Low-Dose CT Scans in Radiomics-based Reinf,0.88,0.86,0.8411,0.8769,-0.0003,0.0003
+lung_LDCT_traditional_022,Early Detection of Lung Cancer in the NLST Dataset.,0.85,0.8605,0.8417,0.8774,0.0002,0.0002
+lung_LDCT_traditional_023,An intelligent diagnostic model for pulmonary nodules utiliz,0.933,0.8587,0.8398,0.8757,-0.0016,0.0016
+lung_LDCT_traditional_024,Radiomics analysis to predict pulmonary nodule malignancy us,0.93,0.8587,0.84,0.8756,-0.0016,0.0016
+lung_LDCT_traditional_025,Lung nodule classification using radiomics model trained on ,0.81,0.861,0.8423,0.8779,0.0007,0.0007
+lung_LDCT_traditional_026,A novel multimodal prediction model based on DNA methylation,0.894,0.8599,0.8412,0.8768,-0.0004,0.0004
+lung_LDCT_traditional_033,Role of sex in lung cancer risk prediction based on single l,0.89,0.8598,0.841,0.8767,-0.0005,0.0005
+lung_LDCT_traditional_035,Recalibration of a Deep Learning Model for Low-Dose Computed,0.87,0.8602,0.8414,0.877,-0.0002,0.0002
+lung_LDCT_traditional_036,A plasma 9-microRNA signature for lung cancer early detectio,0.78,0.8613,0.8427,0.8781,0.001,0.001
+lung_LDCT_traditional_040,Dynamic screening initiation using 16 plasma protein biomark,0.85,0.8605,0.8417,0.8773,0.0002,0.0002
+lung_LDCT_traditional_041,Deep Learning for Lung Cancer Detection on Screening CT Scan,0.877,0.86,0.8413,0.8769,-0.0003,0.0003
+lung_LDCT_traditional_042,Neighborhood matters: Predicting lung cancer screening adher,0.81,0.861,0.8423,0.8777,0.0007,0.0007
+lung_LDCT_traditional_043,Identification of PIWI-interacting RNAs based models for lun,0.918,0.8592,0.8403,0.8761,-0.0011,0.0011
+lung_LDCT_traditional_044,Longitudinal multisource clinical model for early lung cance,0.8316,0.8607,0.842,0.8776,0.0004,0.0004
+lung_LDCT_traditional_045,Machine learning and discriminant analysis model for predict,0.866,0.8603,0.8413,0.8773,-0.0,0.0
+lung_LDCT_traditional_048,Demographics and socioeconomic determinants of health predic,0.732,0.8618,0.8433,0.8785,0.0015,0.0015
+lung_LDCT_traditional_049,Pulmonary circulatory system characteristics are associated ,0.74,0.8618,0.8432,0.8785,0.0015,0.0015
+lung_LDCT_traditional_050,Development of Diagnosis Model for Early Lung Nodules Based ,0.748,0.8617,0.8431,0.8785,0.0014,0.0014
+lung_LDCT_traditional_052,Liquid biopsy diagnostics for non-small cell lung cancer via,0.85,0.8605,0.8417,0.8773,0.0002,0.0002
+lung_LDCT_traditional_053,Wavelet decomposition facilitates training on small datasets,0.94,0.8585,0.8396,0.8755,-0.0018,0.0018
+lung_LDCT_traditional_054,Detection of early-stage lung cancer in sputum using automat,0.94,0.8589,0.8401,0.8759,-0.0014,0.0014
+lung_LDCT_traditional_055,Deep learning model to quantify left atrium volume on routin,0.86,0.8603,0.8416,0.8772,0.0,0.0
+lung_LDCT_traditional_058,Next-Generation Radiogenomics Sequencing for Prediction of E,0.69,0.862,0.8435,0.8786,0.0017,0.0017
+lung_LDCT_traditional_059,The feasibility of granzyme B levels using an amperometric i,0.938,0.8595,0.8407,0.8763,-0.0008,0.0008
+lung_LDCT_traditional_060,A combined model of circulating tumor DNA methylated SHOX2/S,0.87,0.8602,0.8414,0.877,-0.0001,0.0001
+lung_LDCT_traditional_061,Machine Learning-Assisted Multimodal Early Screening of Lung,0.936,0.8587,0.8398,0.8756,-0.0017,0.0017
+lung_LDCT_traditional_063,Non-invasive identification of TKI-resistant NSCLC: a multi-,0.843,0.8606,0.8418,0.8775,0.0003,0.0003
+lung_LDCT_traditional_064,Combining radiomics and deep learning features of intra-tumo,0.913,0.8597,0.8409,0.8765,-0.0007,0.0007
+lung_LDCT_traditional_065,The clinical value of predicting lymphovascular invasion in ,0.83,0.8607,0.842,0.8776,0.0004,0.0004
+lung_LDCT_traditional_068,Predicting malignant nodules by fusing deep features with cl,0.87,0.8602,0.8414,0.877,-0.0002,0.0002
+lung_LDCT_traditional_069,Combining Low-Dose Computer-Tomography-Based Radiomics and S,0.83,0.8608,0.842,0.8776,0.0005,0.0005
+lung_LDCT_traditional_071,Automatic opportunistic osteoporosis screening using low-dos,0.927,0.8589,0.8401,0.8759,-0.0014,0.0014
+lung_LDCT_traditional_072,Enhancing Early Lung Cancer Diagnosis: Predicting Lung Nodul,0.827,0.8608,0.8421,0.8777,0.0005,0.0005
+lung_LDCT_traditional_073,Automated lung cancer diagnosis using three-dimensional conv,0.913,0.8593,0.8405,0.8762,-0.001,0.001
+lung_LDCT_traditional_077,Multimodal modeling with low-dose CT and clinical informatio,0.86,0.8603,0.8416,0.8771,0.0,0.0
+lung_LDCT_traditional_078,Assessing the transportability of radiomic models for lung c,0.8,0.8611,0.8424,0.8778,0.0008,0.0008
+lung_LDCT_traditional_079,LDCT image biomarkers that matter most for the deep learning,0.808,0.861,0.8424,0.8778,0.0007,0.0007
+lung_LDCT_traditional_081,Impact of Voxel Normalization on a Machine Learning-Based Me,0.9855,0.8578,0.8389,0.8748,-0.0025,0.0025
+lung_LDCT_traditional_082,A Low-Dose CT-Based Radiomic Model to Improve Characterizati,0.89,0.8598,0.841,0.8767,-0.0005,0.0005
+lung_LDCT_traditional_084,Vascular Biomarkers for Pulmonary Nodule Malignancy: Arterie,0.78,0.8613,0.8427,0.878,0.001,0.001
+lung_LDCT_traditional_086,Artificial Intelligence Assisted Computational Tomographic D,0.88,0.86,0.8412,0.8769,-0.0003,0.0003
+lung_LDCT_traditional_087,Investigation of small lung lesion detection for lung cancer,0.98,0.8563,0.8373,0.8733,-0.004,0.004
+lung_LDCT_traditional_088,Predicting Nodule Malignancy using a CNN Ensemble Approach.,0.96,0.8577,0.8388,0.8747,-0.0026,0.0026
+lung_LDCT_traditional_090,Lung Cancer Recurrence Risk Prediction through Integrated De,0.561,0.8632,0.8449,0.8797,0.0029,0.0029
+lung_LDCT_traditional_093,Clinical Study of Artificial Intelligence in Imaging Diagnos,0.71,0.8616,0.843,0.8783,0.0013,0.0013
+lung_LDCT_traditional_095,A prediction model based on DNA methylation biomarkers and r,0.951,0.8589,0.8401,0.8758,-0.0014,0.0014
+lung_LDCT_traditional_096,Artificial intelligence-based vessel suppression for detecti,0.8,0.8611,0.8425,0.8779,0.0008,0.0008
+lung_LDCT_traditional_097,Coronary Artery Calcium Scores and Atherosclerotic Cardiovas,0.621,0.8628,0.8443,0.8793,0.0025,0.0025
+lung_LDCT_traditional_098,Evaluation of emphysema on thoracic low-dose CTs through att,0.94,0.8585,0.8396,0.8755,-0.0018,0.0018
+lung_LDCT_traditional_099,Development of lung cancer risk prediction models based on F,0.867,0.8602,0.8415,0.8771,-0.0001,0.0001
+lung_LDCT_traditional_100,Delta Radiomics Improves Pulmonary Nodule Malignancy Predict,0.773,0.8614,0.8428,0.8782,0.0011,0.0011
+lung_LDCT_traditional_101,Generative models improve radiomics performance in different,0.52,0.8635,0.8452,0.88,0.0032,0.0032
+lung_LDCT_traditional_107,Interpretative computer-aided lung cancer diagnosis: From ra,0.9627,0.8575,0.8386,0.8746,-0.0028,0.0028

@@ -1,0 +1,4 @@
+category,k,pooled_sens,sens_ci_lo,sens_ci_hi,pooled_spec,spec_ci_lo,spec_ci_hi,tau2_sens,tau2_spec,rho
+LDCT_traditional,23,0.831,0.705,0.91,0.833,0.732,0.901,2.9207,2.0796,0.764
+cfDNA_traditional,21,0.739,0.52,0.88,0.773,0.606,0.882,4.7672,3.1451,0.077
+cfDNA_LDCT_traditional,14,0.835,0.798,0.867,0.929,0.788,0.979,0.1606,5.6773,-0.284

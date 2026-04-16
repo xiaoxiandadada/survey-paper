@@ -1,0 +1,5 @@
+category,category_label,analysis_type,k,pooled_auc,ci_lo,ci_hi,tau2,I2,Q,Q_pval
+LDCT_traditional,LDCT + Traditional ML,full,68,0.86,0.842,0.877,0.3429,99.3,10272.1,0.0
+LDCT_LLM,LDCT + Foundation Model,descriptive,5,0.855,0.768,0.913,0.4331,99.4,718.79,0.0
+cfDNA_traditional,cfDNA + Traditional ML,full,29,0.859,0.799,0.903,1.3069,98.7,2159.87,0.0
+cfDNA_LDCT_traditional,cfDNA + LDCT (Multimodal),descriptive,18,0.902,0.879,0.922,0.2169,87.4,134.72,0.0

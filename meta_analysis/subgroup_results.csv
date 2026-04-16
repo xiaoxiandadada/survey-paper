@@ -1,0 +1,9 @@
+category,subgroup_type,subgroup,k,pooled_auc,ci_lo,ci_hi,I2,tau2,Q_pval
+LDCT_traditional,Study Design,Prospective/RCT,7,0.823,0.777,0.861,95.9,0.1275,0.0
+LDCT_traditional,Study Design,Retrospective/Other,61,0.865,0.845,0.883,99.4,0.3812,0.0
+LDCT_traditional,Validation Type,External validation,11,0.847,0.804,0.883,99.5,0.2234,0.0
+LDCT_traditional,Validation Type,No external validation,57,0.861,0.845,0.875,97.4,0.1989,0.0
+cfDNA_traditional,Study Design,Prospective/RCT,< 5,,,,,,
+cfDNA_traditional,Study Design,Retrospective/Other,26,0.858,0.794,0.905,98.8,1.3243,0.0
+cfDNA_traditional,Validation Type,External validation,5,0.885,0.816,0.931,87.0,0.3172,0.0
+cfDNA_traditional,Validation Type,No external validation,24,0.853,0.789,0.9,98.5,1.1653,0.0

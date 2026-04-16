@@ -1,0 +1,30 @@
+paper_id,title,auc_removed,pooled_auc_loo,ci_lo,ci_hi,delta_auc,abs_delta
+lung_cfDNA_traditional_002,Accurate detection of early-stage lung cancer using a panel ,0.94,0.8552,0.7933,0.9008,-0.0038,0.0038
+lung_cfDNA_traditional_004,Genome-wide methylation analysis of circulating cell-free DN,0.75,0.8617,0.8016,0.9057,0.0027,0.0027
+lung_cfDNA_traditional_006,Advances in methylation analysis of liquid biopsy in early c,0.956,0.8536,0.7916,0.8995,-0.0053,0.0053
+lung_cfDNA_traditional_008,Diagnostic value of combined detection of plasma cfDNA conce,0.781,0.8613,0.8005,0.9058,0.0024,0.0024
+lung_cfDNA_traditional_009,DNA methylation biomarkers discovered in silico detect cance,0.956,0.8532,0.7923,0.8985,-0.0058,0.0058
+lung_cfDNA_traditional_012,HOXA9 gene promotor methylation and copy number variation of,0.958,0.853,0.7921,0.8983,-0.006,0.006
+lung_cfDNA_traditional_014,A prediction model based on cfDNA concentration and cfDNA me,0.8012,0.8608,0.7999,0.9053,0.0018,0.0018
+lung_cfDNA_traditional_016,A Sight of the Diagnostic Value of Aberrant Cell-Free DNA Me,0.922,0.856,0.7948,0.9012,-0.003,0.003
+lung_cfDNA_traditional_019,Evaluating methylation of human ribosomal DNA at each CpG si,0.84,0.8596,0.7985,0.9044,0.0007,0.0007
+lung_cfDNA_traditional_024,Development and validation of a novel scoring system develop,0.913,0.8563,0.7973,0.9003,-0.0026,0.0026
+lung_cfDNA_traditional_028,Construction of a risk prediction model for lung infection a,0.888,0.8578,0.7966,0.9028,-0.0012,0.0012
+lung_cfDNA_traditional_029,Oral microbiota as a biomarker for predicting the risk of ma,0.887,0.8578,0.7966,0.9029,-0.0011,0.0011
+lung_cfDNA_traditional_030,Early stage NSCLS patients' prognostic prediction with multi,0.785,0.8612,0.8004,0.9057,0.0022,0.0022
+lung_cfDNA_traditional_031,Early detection and stratification of lung cancer aided by a,0.85,0.8592,0.7984,0.904,0.0003,0.0003
+lung_cfDNA_traditional_032,From autoimmune inflammation to malignancy: causal genetic e,0.57,0.8642,0.8278,0.8939,0.0052,0.0052
+lung_cfDNA_traditional_033,Blood-Based Biomarker Panel for Personalized Lung Cancer Ris,0.79,0.8611,0.8002,0.9056,0.0021,0.0021
+lung_cfDNA_traditional_035,Combining cell-free DNA fragmentomes and total tumour volume,0.78,0.8613,0.8005,0.9058,0.0024,0.0024
+lung_cfDNA_traditional_036,Neutrophil-to-lymphocyte ratio as a prognostic marker for lu,0.651,0.864,0.8041,0.9078,0.0051,0.0051
+lung_cfDNA_traditional_037,XGB-BIF: An XGBoost-Driven Biomarker Identification Framewor,0.93,0.8554,0.7943,0.9007,-0.0035,0.0035
+lung_cfDNA_traditional_038,Whole-genome bisulfite sequencing analysis of circulating tu,0.971,0.8525,0.7901,0.8988,-0.0064,0.0064
+lung_cfDNA_traditional_039,Lipidomic signatures as predictive biomarkers for early-onse,0.874,0.8584,0.7972,0.9033,-0.0006,0.0006
+lung_cfDNA_traditional_040,Detection of non-metastatic non-small-cell lung cancer in ur,0.71,0.8629,0.8024,0.9071,0.004,0.004
+lung_cfDNA_traditional_042,Exploratory Algorithms to Aid in Risk of Malignancy Predicti,0.872,0.8585,0.7973,0.9034,-0.0005,0.0005
+lung_cfDNA_traditional_043,MoLPre: A Machine Learning Model to Predict Metastasis of cT,0.92,0.8561,0.7949,0.9013,-0.0028,0.0028
+lung_cfDNA_traditional_044,Autoantibody Signatures as a Biomarker Panel for the Detecti,0.674,0.8637,0.8032,0.9077,0.0047,0.0047
+lung_cfDNA_traditional_046,Identification of optimal biomarkers associated with distant,0.65,0.8643,0.8019,0.9093,0.0054,0.0054
+lung_cfDNA_traditional_049,"Integration of Machine Learning, Bioinformatics, and Experim",0.912,0.8566,0.7954,0.9017,-0.0024,0.0024
+lung_cfDNA_traditional_050,Improving malignancy risk prediction of indeterminate pulmon,0.76,0.8619,0.8,0.9069,0.003,0.003
+lung_cfDNA_traditional_051,The lung cancer-associated blood biomarker hPG80 exhibits a ,0.85,0.8593,0.7982,0.9041,0.0003,0.0003
